@@ -11,53 +11,15 @@
 
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("navLogo").style.filter = "contrast(1) brightness(1)";
+	document.getElementById("header").style.marginTop = "0";
+	document.getElementById("arrow1").style.opacity = "0";
 	document.getElementById("headerDark").style.opacity = "0";
-	document.getElementById("navBar").style.marginTop = "0";
-	document.getElementById("").style.color = "rgb(0,0,0)";
-	document.getElementById("").style.color = "rgb(0,0,0)";
-	  document.getElementById("").style.color = "rgb(0,0,0)";
-	  document.getElementById("").style.color = "rgb(0,0,0)";
-	  document.getElementById("").style.color = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	document.getElementById("").style.background = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	  document.getElementById("").style.fill = "rgb(0,139,233)";
-	  document.getElementById("").style.color = "rgb(0,0,0)";
-	  document.getElementById("").style.color = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	  document.getElementById("").style.background = "rgb(0,0,0)";
-	document.getElementById("").src='Media/Name Logo White.png';
-	document.getElementById("").style.width = "100%";
-	document.getElementById("").style.background = "#FFFFFF";
+	document.getElementById("contentCont").style.opacity = "1";
   } else {
-    document.getElementById("navLogo").style.filter = "contrast(0.5) brightness(200)";
+	document.getElementById("header").style.marginTop = "-50vh";
+	document.getElementById("arrow1").style.opacity = "1";
 	document.getElementById("headerDark").style.opacity = "1";
-	document.getElementById("navBar").style.marginTop = "-50vh";
-	document.getElementById("").style.color = "rgb(255,255,255)";
-	document.getElementById("").style.color = "rgb(255,255,255)";
-	  document.getElementById("").style.color = "rgb(255,255,255)";
-	  document.getElementById("").style.color = "rgb(255,255,255)";
-	  document.getElementById("").style.color = "rgb(255,255,255)";
-	  document.getElementById("").style.background = "rgb(255,255,255)";
-	document.getElementById("").style.background = "rgb(255,255,255)";
-	  document.getElementById("").style.background = "rgb(255,255,255)";
-	  document.getElementById("").style.background = "rgb(255,255,255)";
-	  document.getElementById("").style.fill = "#FFFFFF";
-	  document.getElementById("").style.color = "#FFFFFF";
-	  document.getElementById("").style.color = "#FFFFFF";
-	  document.getElementById("").style.background = "#FFFFFF";
-	  document.getElementById("").style.background = "#FFFFFF";
-	  document.getElementById("").style.background = "#FFFFFF";
-	  document.getElementById("").style.background = "#FFFFFF";
-	  document.getElementById("").style.background = "#FFFFFF";
-	document.getElementById("").src='Media/Name Logo Black.png';
-	document.getElementById("").style.width = "100%";
-	document.getElementById("").style.background = "rgb(0,0,0)";
+	document.getElementById("contentCont").style.opacity = "1";
   }
 }
 	
@@ -116,7 +78,56 @@ function scrollFunction() {
 	<div id="headerImgCont">
 		<div id="headerDark"></div>
 		<div id="headerLight"></div>
+		<div id="scrollInfo"><i class="arrow1" id="arrow1"></i></div>
 	</div>
 	<div id="spacer"></div>
+	<div id="contentCont">
+		<div class="transitionCont">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M2000,57.3c0,0-248.8-50-428.6-51.1S1124.4,48.1,963,60.7S659.1,36,520.7,35.3C382.2,34.5,58.2,75.1,0,68.2
+	l0,103.1l2000,0V57.3z"/>
+<path class="st1" d="M2000,51.7c-89.9-6.3-203.2-13.3-378.1-16.1C1266,29.8,727.2,99.4,519.6,96.3S149,37.7,0,57.6l0,113.7l2000,0
+	V51.7z"/>
+<path class="st2" d="M0,122.1v49.2l2000,0V45.2c-241-23.7-714.1,73.5-902.6,70.5C909,112.6,722.9,85,560.5,85S91.7,111.8,0,122.1z"
+	/>
+<path class="st3" d="M0,122.1v49.2l2000,0V73.5c-132.3-8.9-221.2,79-381.8,79s-256.1-43.3-488.5-47.1s-482.8,66.2-661.1,66
+	C290.2,171.1,106.1,102.8,0,79.2"/>
+</svg>
+			<div class="filler1"></div>
+		</div>
+		<div id="sec1">
+			<div id="sec1Cont">
+				<div id="sec1Right">
+					<p id="sec1Title">AUSTRALIAN NATIONAL CHAMPIONS</p>
+					<p id="sec1SubTitle">Development Class</p>
+				</div>
+				<div id="sec1Left">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<path d="M5.8,10.5c0.2,0.1,0.3,0.2,0.4,0.4c0.3,0.5,0.5,1.1,0.8,1.5C3.1,11.2,0.8,7.7,0.1,4C0,3.5,0.4,3,1,3l2.3,0
+	c0.4,0,0.8,0.3,0.8,0.7c0,0.2,0,0.4,0.1,0.7l-1.6,0C2,4.4,1.6,5,1.8,5.5C2.4,7.3,3.5,9.3,5.8,10.5z M16,21.6V23H8v-1.4
+	c1.6,0,2.2-1,2.4-2c0.1-0.4,0.4-0.6,0.8-0.6l1.5,0c0.4,0,0.8,0.3,0.9,0.7C13.8,20.7,14.4,21.6,16,21.6z M24,3
+	c-0.4,4.1-2.8,8.1-6.9,9.4c0.3-0.5,0.5-1,0.8-1.5c0.1-0.2,0.2-0.3,0.4-0.4c2.2-1.3,3.4-3.3,3.9-5C22.4,5,22,4.4,21.4,4.4l-1.6,0
+	c0-0.2,0.1-0.4,0.1-0.7c0-0.4,0.4-0.7,0.8-0.7L24,3L24,3z M5,1.9c0.3,8.7,4.6,12,5.5,15.5c0.1,0.4,0.4,0.6,0.8,0.6h1.3
+	c0.5,0,0.9-0.2,1-0.6c0.9-3.6,5.2-6.9,5.5-15.5C19,1.4,18.6,1,18.1,1L5.9,1C5.4,1,5,1.4,5,1.9z M13,10h-1V7.4C12,7.2,11.8,7,11.6,7
+	H10V6.3c1,0,1.9-0.3,2-1.3h1V10z M22.1,10.2c0.3,1.1,1,2.2,1.7,2.9l-0.5,0.3c-0.3,0.2-0.8,0.2-1.1-0.2c-0.4-0.5-0.7-0.9-0.9-1.5
+	c-0.1-0.3-0.1-0.7,0.2-0.9C21.8,10.6,22,10.4,22.1,10.2z M23,15.3c-0.3-0.3-0.7-0.4-1.1-0.2l-0.5,0.3c0.8,0.7,1.2,1.5,1.6,2.5
+	l0.5-0.3c0.4-0.2,0.5-0.7,0.3-1C23.6,16.2,23.3,15.7,23,15.3z M20.1,12c-0.2,0.1-0.3,0.2-0.5,0.3c-0.3,0.2-0.5,0.7-0.3,1
+	c0.2,0.5,0.5,0.9,0.9,1.4c0.3,0.3,0.7,0.4,1,0.1l0.5-0.3C21,13.9,20.4,13,20.1,12z M2.6,11.7c-0.2,0.6-0.5,1-0.9,1.5
+	c-0.3,0.3-0.7,0.4-1.1,0.2L0.1,13c0.8-0.7,1.4-1.8,1.7-2.9c0.2,0.2,0.4,0.4,0.6,0.6C2.7,11,2.7,11.4,2.6,11.7z M0.2,16.6
+	c-0.2,0.4,0,0.8,0.3,1L1,18c0.3-1,0.8-1.8,1.6-2.5l-0.5-0.3C1.8,15,1.3,15,1,15.3C0.7,15.7,0.4,16.2,0.2,16.6z M2.3,14.6l0.5,0.3
+	c0.3,0.2,0.8,0.1,1-0.1c0.4-0.4,0.7-0.9,0.9-1.4c0.2-0.4,0-0.8-0.3-1c-0.2-0.1-0.3-0.2-0.5-0.3C3.6,13,3,13.9,2.3,14.6z"/>
+</svg>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
