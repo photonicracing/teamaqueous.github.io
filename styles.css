@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+html {
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+}
+
+#header {
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background: rgba(0,0,0,0);
+	z-index: 5;
+}
+
+#headerCont {
+	width: 98vw;
+	margin: 1vw; 
+	display: flex;
+	justify-content: space-between;
+}
+
+#navLogo {
+	width: 250px;
+	height: 77px;
+	filter: contrast(0.5) brightness(200);
+	transition: 0.5s;
+}
+
+#navBar {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: -50vh;
+	transition: 0.7s;
+}
+
+.navLink {
+	height: inherit;
+	padding: 0.5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.navLink a {
+	margin: auto;
+	display: inline-block;
+	font-size: 1vw;
+	text-decoration: none;
+	color: #000000;
+	transition: 0.3s;
+}
+
+.navLink a:hover {
+	color: #006EDB;
+}
+
+.navLinkText {
+	padding: 0.5vw;
+}
+
+.navLinkIndicator {
+	width: 100%;
+	height: 3px;
+	display: flex;
+	flex-direction: row;
+}
+
+.nli1 {
+	height: 3px;
+	width: 0px;
+	background: #006EDB;
+	transition: 0.3s;
+}
+
+.nli2 {
+	height: 3px;
+	width: 0px;
+	background: #05A5FF;
+	transition: 0.3s;
+}
+
+.nli3 {
+	height: 3px;
+	width: 0px;
+	background: #29CDFF;
+	transition: 0.3s;
+}
+
+.navLink:hover .nli1 {
+	width: 60%;
+}
+
+.navLink:hover .nli2 {
+	width: 25%;
+}
+
+.navLink:hover .nli3 {
+	width: 15%;
+}
+
+#headerImgCont {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#headerImgCont div {
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+
+#headerDark {
+	z-index: 2;
+	background: url("media/header_dark.png");
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#headerLight {
+	z-index: 1;
+	background: url("media/header_light.png");
+}
+
+#spacer {
+	height: 100vw;
+	width: 100vw;
+}
+
+
+
