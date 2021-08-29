@@ -3,6 +3,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
+/* Page Theme Colours
+
+Light Blue: #3ADBFD
+Blue: #2D9FFE
+Dark Blue: #1067DD
+
+*/
+
+::-webkit-scrollbar {
+ 	width: 12px;
+	background: none;
+}
+
+::-webkit-scrollbar-track {
+  	background: none; 
+}
+
+::-webkit-scrollbar-thumb {
+  	background: rgba(0,0,0,0);
+	border-radius: 6px;
+	transition: 0.3s;
+	border: solid #2D9FFE 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  	background: #2D9FFE; 
+}
+
+#spacer2 {
+	width: 100vw;
+	height: 100vh;
+}
+
 html {
 	top: 0;
 	left: 0;
@@ -10,6 +43,7 @@ html {
 	margin: 0;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	overflow: overlay;
 }
 
 body {
@@ -26,10 +60,11 @@ body {
 	left: 0;
 	right: 0;
 	position: fixed;
-	background: rgba(0,0,0,0);
-	z-index: 6;
+	background: rgba(255,255,255,0.5);
+	z-index: 15;
 	margin-top: -50vh;
-	transition: 0.7s;
+	transition: 1.2s;
+	backdrop-filter: blur(15px) brightness(1);
 }
 
 #headerCont {
@@ -40,8 +75,8 @@ body {
 }
 
 #navLogo {
-	width: 250px;
-	height: 77px;
+	width: 200px;
+	height: 62px;
 	/*filter: contrast(0.5) brightness(200);*/
 	transition: 0.5s;
 }
@@ -65,14 +100,14 @@ body {
 .navLink a {
 	margin: auto;
 	display: inline-block;
-	font-size: 1vw;
+	font-size: 20px;
 	text-decoration: none;
 	color: #000000;
 	transition: 0.3s;
 }
 
 .navLink a:hover {
-	color: #006EDB;
+	color: #2D9FFE;
 }
 
 .navLinkText {
@@ -89,21 +124,21 @@ body {
 .nli1 {
 	height: 3px;
 	width: 0px;
-	background: #006EDB;
+	background: #1067DD;
 	transition: 0.3s;
 }
 
 .nli2 {
 	height: 3px;
 	width: 0px;
-	background: #05A5FF;
+	background: #2D9FFE;
 	transition: 0.3s;
 }
 
 .nli3 {
 	height: 3px;
 	width: 0px;
-	background: #29CDFF;
+	background: #3ADBFD;
 	transition: 0.3s;
 }
 
@@ -154,7 +189,7 @@ body {
 @keyframes arrow {
 	0% {margin-bottom: 30px; border: solid white; border-width: 0 5px 5px 0;}
 	80% {margin-bottom: 55px; border: solid white; border-width: 0 5px 5px 0;}
-	95% {margin-bottom: 30px; border: solid #006EDB; border-width: 0 5px 5px 0;}
+	95% {margin-bottom: 30px; border: solid #2D9FFE; border-width: 0 5px 5px 0;}
 	100% {margin-bottom: 30px; border: solid white; border-width: 0 5px 5px 0;}
 }
 
@@ -205,13 +240,13 @@ body {
 #sec1Cont {
 	margin: auto;
 	width: 80vw;
-	height: 90%;
+	height: 450px;
 	display: flex;
 	align-content: center;
 	flex-direction: row;
 }
 
-#sec1Right {
+#sec1Left {
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -231,18 +266,18 @@ body {
 	margin-top: 0;
 }
 
-#sec1Left {
+#sec1Right {
 	width: 35%;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 }
 
-#sec1Left path {
-	fill: #0E8BFF;
+#sec1Right path {
+	fill: #2D9FFE;
 }
 
-#sec1Left svg {
+#sec1Right svg {
 	width: 310px;
 	height: auto;
 }
@@ -253,21 +288,182 @@ body {
 
 .transitionCont {
 	width: 100%;
-	margin-bottom: -50px;
 	padding: 0;
+	z-index: 4;
 }
 
+.upper {
+	margin-bottom: -50px;
+}
 
+.lower {
+	margin-top: -50px;
+}
 
+#sec2 {
+	height: 700px;
+	width: 100%;
+	background: url("media/ausflag.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: -100px;
+	margin-bottom: -100px;
+}
 
+#sec2Cont {
+	margin: auto;
+	width: 80%;
+	height: 350px;
+	display: flex;
+	align-content: center;
+	flex-direction: row;
+	margin-bottom: 0;
+}
 
+#sec2Left {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 65%;
+}
 
+#sec2Title {
+	font-size: 70px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
 
+#sec2SubTitle {
+	font-size: 45px;
+	margin-top: 0;
+}
 
+#sec2Right {
+	width: 35%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
 
+#sec2Bottom {
+	width: 100%;
+	margin: auto;
+	margin-top: 0;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
 
+#sec2Right svg {
+	width: 400px;
+}
 
+.button1 {
+	margin: auto;
+	width: 200px;
+	height: 75px;
+	background: #FFFFFF;
+}
 
+.button1PCont {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	z-index: 6;
+	color: black;
+	text-decoration: none;
+	margin-top: -75px;
+}
+
+.button1 {
+	text-decoration: none;
+}
+
+.button1PCont p {
+	margin: auto;
+	font-size: 20px;
+	z-index: 6;
+	transition: 0.3s;
+}
+
+.button1Indicator {
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	display: flex;
+	flex-direction: row;
+}
+
+.b1-1 {
+	height: 100%;
+	background: #1067DD;
+	width: 0px;
+	transition: 0.3s ease;
+	z-index: 5;
+}
+
+.b1-2 {
+	height: 100%;
+	background: #2D9FFE;
+	width: 0px;
+	transition: 0.3s ease;
+	z-index: 5;
+}
+
+.b1-3 {
+	height: 100%;
+	background: #3ADBFD;
+	width: 0px;
+	transition: 0.3s ease;
+	z-index: 5;
+}
+
+.button1:hover .b1-1 {
+	width: 60%;
+}
+
+.button1:hover .b1-2 {
+	width: 25%;
+}
+
+.button1:hover .b1-3 {
+	width: 15%;
+}
+
+.button1:hover p {
+	color: white;
+}
+
+#teamAusCont {
+	display: flex;
+	align-content: center;
+	justify-content: center; 
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	background: white;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
 
 
 
