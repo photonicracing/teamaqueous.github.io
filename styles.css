@@ -4,11 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 /* Page Theme Colours
-
 Light Blue: #3ADBFD
 Blue: #2D9FFE
 Dark Blue: #1067DD
-
 */
 
 ::-webkit-scrollbar {
@@ -372,6 +370,8 @@ body {
 	height: 75px;
 	background: #FFFFFF;
 	text-decoration: none;
+	overflow: hidden;
+	/*border-radius: 37.5px;*/
 }
 
 .button1PCont {
@@ -493,7 +493,7 @@ body {
 
 #sec3Title p {
 	margin: auto;
-	font-size: 45px;
+	font-size: 55px;
 	font-weight: 700;
 }
 
@@ -503,7 +503,6 @@ body {
 	flex-wrap: wrap;
 	align-content:center;
 	justify-content: space-around;
-	
 	z-index: 6;
 }
 
@@ -562,7 +561,9 @@ body {
 	border: solid 3px #1067DD;
 	text-decoration: none;
 	margin: auto;
-	transition: 0.3s;
+	transition: 0.75s;
+	overflow: hidden;
+	/*border-radius: 40px;*/
 }
 
 #b21 {
@@ -704,9 +705,129 @@ body {
 	background-position: center;
 }
 
+#sec4 {
+	width: 100%;
+	background: white;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: -100px;
+	margin-bottom: -100px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
 
+#sec4Cont {
+	margin: auto;
+	width: 80%;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
 
+#sec4Title {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
 
+#sec4Title p {
+	margin: auto;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+#partnerCont {
+	margin: auto;
+	display: flex;
+	align-content: space-around;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #1067DD;
+	margin-top: 50px;
+}
+
+.partnerBox {
+	width: 15vw;
+	height: 15vw;
+	background: rgba(255,255,255,0.2);
+	margin: 10px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	transition: 0.3s;
+}
+
+.middlePB {
+	margin-left: 0;
+}
+
+.partnerBox div {
+	width: 10vw;
+	height: 10vw;
+	transition: 0.3s;
+}
+
+#pb-1 {
+	background: url("media/capral.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-2 {
+	background: url("media/rea.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-3 {
+	background: url("media/bmgs.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-4 {
+	background: url("media/newo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+.partnerBox:hover {
+	background: rgba(255,255,255,0.35);
+}
+
+.partnerBox:hover div {
+	width: 11vw;
+	height: 11vw;
+}
+
+#supportUs {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#sup {
+	margin: auto;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
 
 
 
