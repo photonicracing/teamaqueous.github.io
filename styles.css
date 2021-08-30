@@ -7,6 +7,8 @@
 Light Blue: #3ADBFD
 Blue: #2D9FFE
 Dark Blue: #1067DD
+
+Dark Grey: #223447
 */
 
 ::-webkit-scrollbar {
@@ -828,6 +830,289 @@ body {
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
+
+#sec5 {
+	width: 100%;
+	height: 400px;
+	background: white;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#sec5Cont {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#sec5Title {
+	margin: auto;
+	font-size: 50px;
+}
+
+#socialLinks {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	margin-left: 50px;
+}
+
+.socialLink {
+	width: 100px;
+	height: 100px;
+	background: #1067DD;
+	margin: 10px;
+	border-radius: 50px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	transition: 0.75s;
+}
+
+.socialLink div {
+	margin: auto;
+	height: 50%;
+	width: 50%;
+	transition: 0.2s;
+}
+
+#faceL div {
+	background: url("media/facebook.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#instaL div {
+	background: url("media/instagram.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#mailL div {
+	background: url("media/mail.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#discordL div {
+	background: url("media/discord.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.socialLink:hover div {
+	height: 60%;
+	width: 60%;
+}
+
+.socialLink:hover {
+	background: #6BAAFF;
+}
+
+#footer {
+	width: 100%;
+	bottom: 0;
+	background: #223447;
+	margin-top: -100px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#footLogo img {
+	width: 200px;
+	height: 62px;
+	margin-top: 0;
+}
+
+#footerCont {
+	margin: auto;
+	width: 90%;
+	height: 80%;
+	margin-top: 110px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+#footleft {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-content: center;
+}
+
+#footLogo {
+	margin-top: 0;
+	margin: auto;
+}
+
+#footName {
+	margin: auto;
+	color: white;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+#footRight {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: center;
+}
+
+#qm {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+}
+
+#qmTitle {
+	width: 100%;
+	margin: auto;
+}
+
+#qmTitle p {
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+#qmTitle div {
+	width: 85%;
+	height: 2px;
+	background: #426385;
+	margin-top: 0;
+}
+
+.qmLink {
+	text-decoration: none;
+	color: white;
+	width: 130px;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	transition: 0.3s;
+}
+
+.qmLink p {
+	margin: 0;
+}
+
+#qmLinks {
+	width: 260px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: flex-start;
+}
+
+.qmLink:hover {
+	color: #6E9CCA;
+}
+
+#qsC {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+#qs {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.qsL {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background: rgba(255,255,255,0);
+	margin: 2px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	transition: 0.3s;
+}
+
+.qsL div {
+	width: 70%;
+	height: 70%;
+	margin: auto;
+}
+
+#faceQs div {
+	background: url("media/facebook.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#instaQs div {
+	background: url("media/instagram.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#mailQs div {
+	background: url("media/mail.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#discordQs div {
+	background: url("media/discord.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.qsL:hover {
+	background: rgba(255,255,255,0.2);
+}
+
+#qsTitle div {
+	width: 100%;
+	height: 2px;
+	background: #426385;
+	margin-top: 0;
+}
+
+#qsTitle p {
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+
 
 
 
