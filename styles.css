@@ -1186,12 +1186,23 @@ body {
 
 @media screen and (max-width: 1000px) {
 	#spacer {
-		height: 1vh;
+		height: 20vh;
+	}
+	
+	#headerImgCont {
+		width: 100vw;
+		height: 100vw;
+	}
+
+	#headerImgCont div {
+		width: 100vw;
+		height: 100vw;
 	}
 	
 	.arrow1 {
 		border-width: 0 35px 35px 0;
 		padding: 30px;
+		margin-bottom: 10vh;
 	}
 	
 	#sec1 {
@@ -1217,12 +1228,12 @@ body {
 	}
 	
 	#sec1Right {
-		width: 100%;
+		width: 50vw;
 		margin-top: 15vw;
 	}
 	
 	#sec1Right svg {
-		width: 50vw;
+		width: 100%;
 	}
 	
 	#sec2Title {
