@@ -272,6 +272,7 @@ body {
 	z-index: 3;
 	opacity: 1;
 	position: relative;
+	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 100%);
 }
 
 #sec1 {
@@ -432,7 +433,7 @@ body {
 	height: 75px;
 	background: #FFFFFF;
 	text-decoration: none;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	/*border-radius: 37.5px;*/
 }
 
@@ -1194,7 +1195,7 @@ body {
 	}
 	
 	#sec1 {
-		margin-top: 5.5vw;
+		margin-top: 2vw;
 		height: 130vw;
 	}
 	
@@ -1217,7 +1218,11 @@ body {
 	
 	#sec1Right {
 		width: 100%;
-		height: 50vw;
+		margin-top: 15vw;
+	}
+	
+	#sec1Right svg {
+		width: 50vw;
 	}
 	
 	#sec2Title {
@@ -1250,6 +1255,17 @@ body {
 	#sec2Bottom {
 		margin-top: 5vw;
 		margin-bottom: 5vw;
+	}
+	
+	#teamAusCont {
+		width: 50vw;
+		height: 50vw;
+		border-radius: 25vw;
+	}
+	
+	#teamAusCont svg {
+		width: 100%;
+		height: 100%;
 	}
 	
 	#sec3 {
@@ -1357,6 +1373,37 @@ body {
 	#footRight {
 		width: 100%;
 		margin-top: 50px;
+	}
+	
+	.button1 {
+		width: 50vw;
+		height: 19vw;
+	}
+	
+	.button1PCont {
+		margin-top: -19vw;
+	}
+	
+	.button1PCont p {
+		font-size: 6vw;
+	}
+	
+	.button2 {
+		width: 50vw;
+		height: 19vw;
+		border: solid 1vw #1067DD;
+	}
+	
+	.button2PCont {
+		margin-top: -19vw;
+	}
+	
+	.button2PCont p {
+		font-size: 6vw;
+	}
+	
+	#b21 {
+		width: 75vw;
 	}
 }
 
