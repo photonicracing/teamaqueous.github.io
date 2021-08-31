@@ -322,13 +322,10 @@ body {
 	justify-content: center;
 }
 
-#sec1Right path {
-	fill: #2D9FFE;
-}
-
-#sec1Right svg {
+#sec1Right img {
 	width: 310px;
-	height: auto;
+	height: 330px;
+	margin: auto;
 }
 
 .transitionCont svg {
@@ -1249,16 +1246,13 @@ body {
 	}
 	
 	#sec1Right {
-		width: 50vw;
-		margin-top: 15vw;
+		width: 70vw;
+		margin-top: 5vw;
 	}
 	
-	#sec1Right svg {
-		width: 50vw;
-	}
-	
-	#Layer_2 {
-		width: 50vw;
+	#sec1Right img {
+		width: 60vw;
+		height: 60vw;
 	}
 	
 	#sec2Title {
