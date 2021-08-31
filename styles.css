@@ -1186,7 +1186,7 @@ body {
 
 @media screen and (max-width: 1000px) {
 	#spacer {
-		height: 110vw;
+		height: 0vw;
 	}
 	
 	#headerImgCont {
