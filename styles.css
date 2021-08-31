@@ -162,7 +162,7 @@ body {
 	padding: 15px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   	.navBar a:not(:first-child) {display: none;}
   	.navBar a.icon {
     	float: right;
@@ -179,7 +179,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	.navBar.responsive {
 		position: relative;
 		width: 100%;
@@ -1183,7 +1183,7 @@ body {
 	margin-top: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	#spacer {
 		height: 1vh;
 	}
