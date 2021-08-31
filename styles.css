@@ -1199,13 +1199,13 @@ body {
 	
 	#headerImgCont {
 		width: 100vw;
-		height: 55vw;
+		height: 60vw;
 		margin-bottom: -6vh;
 	}
 
 	#headerImgCont div {
 		width: 100vw;
-		height: 55vw;
+		height: 60vw;
 		background-size: contain;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -1249,12 +1249,16 @@ body {
 	}
 	
 	#sec1Right {
-		width: 500px;
+		width: 50vw;
 		margin-top: 15vw;
 	}
 	
 	#sec1Right svg {
-		width: 500px;
+		width: 50vw;
+	}
+	
+	#Layer_2 {
+		width: 50vw;
 	}
 	
 	#sec2Title {
