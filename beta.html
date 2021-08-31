@@ -5,6 +5,7 @@
 <title>Aqueous | Home</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/jpg" href="media/favicon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 
 		window.onscroll = function() {scrollFunction1()};
@@ -44,7 +45,19 @@ function scrollFunction1() {
         }
       }
     }
-    </script>
+	</script>
+<script>
+	
+function myFunction() {
+  var x = document.getElementById("navBar");
+  if (x.className === "navBar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navBar";
+  }
+}
+	
+	</script>
 </head>
 
 <body>
@@ -53,42 +66,40 @@ function scrollFunction1() {
 		<div id="headLogoCont">
 			<img id="navLogo" src="media/logo_name.png" width="9036" height="2779" alt=""/>
 		</div>
-		<div id="navBar">
-			<div class="navLink">
-				<a href=""><div class="navLinkText">Home</div><div class="navLinkIndicator">
+		<div id="navBar" class="navBar">
+				<a href="" class="navLink">
+					<div class="navLinkText">Home</div><div class="navLinkIndicator">
 					<div class="nli1"></div>
 					<div class="nli2"></div>
 					<div class="nli3"></div>
 				</div></a>
-			</div>
-			<div class="navLink">
-				<a href=""><div class="navLinkText">About Us</div><div class="navLinkIndicator">
+				<a href="" class="navLink">
+					<div class="navLinkText">About Us</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+					</div></a>
+				<a href="" class="navLink">
+					<div class="navLinkText">F1 in Schools &trade;</div><div class="navLinkIndicator">
 					<div class="nli1"></div>
 					<div class="nli2"></div>
 					<div class="nli3"></div>
 				</div></a>
-			</div>
-			<div class="navLink">
-				<a href=""><div class="navLinkText">F1 in Schools &trade;</div><div class="navLinkIndicator">
+				<a href="" class="navLink">
+					<div class="navLinkText">Support Us</div><div class="navLinkIndicator">
 					<div class="nli1"></div>
 					<div class="nli2"></div>
 					<div class="nli3"></div>
 				</div></a>
-			</div>
-			<div class="navLink">
-				<a href=""><div class="navLinkText">Support Us</div><div class="navLinkIndicator">
+				<a href="" class="navLink">
+					<div class="navLinkText">Contact</div><div class="navLinkIndicator">
 					<div class="nli1"></div>
 					<div class="nli2"></div>
 					<div class="nli3"></div>
 				</div></a>
-			</div>
-			<div class="navLink">
-				<a href=""><div class="navLinkText">Contact</div><div class="navLinkIndicator">
-					<div class="nli1"></div>
-					<div class="nli2"></div>
-					<div class="nli3"></div>
-				</div></a>
-			</div>
+				<a href="javascript:void(0);" class="icon navLink" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  				</a>
 		</div>
 	  </div>
 	</div>
@@ -462,16 +473,22 @@ function scrollFunction1() {
 					<p>OUR PARTNERS</p>
 				</div>
 				<div id="partnerCont" class="reveal">
-					<a class="partnerBox" href="https://www.capral.com.au" target="_blank">
+					<a class="partnerBox" href="https://www.leapaust.com.au" target="_blank">
+						<div id="pb-5"></div>
+					</a>
+					<a class="partnerBox middlePB" href="https://www.ansys.com" target="_blank">
+						<div id="pb-6"></div>
+					</a>
+					<a class="partnerBox middlePB" href="https://www.capral.com.au" target="_blank">
 						<div id="pb-1"></div>
 					</a>
-					<a class="partnerBox middlePB" href="https://rea.org.au" target="_blank">
+					<a class="partnerBox lowerPB" href="https://rea.org.au" target="_blank">
 						<div id="pb-2"></div>
 					</a>
-					<a class="partnerBox middlePB" href="https://www.bmgs.nsw.edu.au" target="_blank">
+					<a class="partnerBox middlePB lowerPB" href="https://www.bmgs.nsw.edu.au" target="_blank">
 						<div id="pb-3"></div>
 					</a>
-					<a class="partnerBox middlePB" href="https://www.newington.nsw.edu.au" target="_blank">
+					<a class="partnerBox middlePB lowerPB" href="https://www.newington.nsw.edu.au" target="_blank">
 						<div id="pb-4"></div>
 					</a>
 				</div>
