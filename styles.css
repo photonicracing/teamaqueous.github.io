@@ -1193,6 +1193,10 @@ body {
 		display: none;
 	}
 	
+	#header {
+		background: white;
+	}
+	
 	#headerImgCont {
 		width: 100vw;
 		height: 55vw;
