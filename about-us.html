@@ -2,10 +2,225 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>untitled</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
+<title>About Us</title>
+<link href="styles2.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/jpg" href="media/favicon.png"/>
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 25;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+</script>
+<script>
+	
+function myFunction() {
+  var x = document.getElementById("navBar");
+  if (x.className === "navBar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navBar";
+  }
+}
+	
+</script>
 </head>
 
 <body>
+	<div id="header">
+	  <div id="headerCont">
+		<div id="headLogoCont">
+			<img id="navLogo" src="media/logo_name.png" width="9036" height="2779" alt=""/>
+		</div>
+		<div id="navBar" class="navBar">
+				<a href="https://teamaqueous.com" class="navLink" target="_self">
+					<div class="navLinkText">Home</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="about-us/" class="navLink" target="_self">
+					<div class="navLinkText">About Us</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+					</div></a>
+				<a href="about-f1-in-schools/" class="navLink" target="_self">
+					<div class="navLinkText">F1 in Schools &trade;</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="support-us/" class="navLink" target="_self">
+					<div class="navLinkText">Support Us</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="contact-us/" class="navLink" target="_self">
+					<div class="navLinkText">Contact</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="javascript:void(0);" class="icon navLink" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  				</a>
+		</div>
+	  </div>
+	</div>
+	<div class="headerImg" id="hiAboutUs"></div>
+	<div class="transitionCont upper">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M2000,57.3c0,0-248.8-50-428.6-51.1S1124.4,48.1,963,60.7S659.1,36,520.7,35.3C382.2,34.5,58.2,75.1,0,68.2
+	l0,103.1l2000,0V57.3z"/>
+<path class="st1" d="M2000,51.7c-89.9-6.3-203.2-13.3-378.1-16.1C1266,29.8,727.2,99.4,519.6,96.3S149,37.7,0,57.6l0,113.7l2000,0
+	V51.7z"/>
+<path class="st2" d="M0,122.1v49.2l2000,0V45.2c-241-23.7-714.1,73.5-902.6,70.5C909,112.6,722.9,85,560.5,85S91.7,111.8,0,122.1z"
+	/>
+<path class="st3" d="M0,122.1v49.2l2000,0V73.5c-132.3-8.9-221.2,79-381.8,79s-256.1-43.3-488.5-47.1s-482.8,66.2-661.1,66
+	C290.2,171.1,106.1,102.8,0,79.2"/>
+</svg>
+	</div>
+	<div class="section1">
+		<div class="section1Cont">
+			<p class="section1Title reveal">About Us</p>
+			<p class="section1Text reveal">Aqueous is a team of nine high school students from New South Wales, Australia, representing our country in the 2021(22) F1 in Schools&trade; World Finals. We pride ourselves in our innovation, commitment, perseverance, and team work. As a team, our aim is to not just succeed in the F1 in Schools STEM Challenge&trade;, but also help each other develop and hone skills that enhance both our career opportunities, and us as people.</p>
+			<p class="section1Quote reveal"><span>"</span>Dynamic solutions through innovation, adaptation, and collaboration.<span>"</span></p>
+		</div>
+	</div>
+	<div class="section1">
+		<div class="section2Cont">
+			<div class="section2Half" id="rvBefore">
+				<p class="section2SubTitle reveal" id="collab">Our Collaboration</p>
+				<p class="section2Text reveal">Our team is split into two halves. One half is based in the Blue Mountains, at Blue Mountains Grammar School in Wentworth Falls. The other is from Newington Collage, Stanmore, Sydney.</p>
+				<p class="section2Text reveal">Originally, we all competed as two separate teams at the 2021 F1 in Schools&trade; Australian National Finals: PerPetrol and Aeolus Racing. We have been brought together to form a strong collaboration for the upcoming World Finals.</p>
+			</div>
+			<div class="section2Half reveal" id="revealVideo">
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H2ymhWrQsU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p class="caption1">Our team collaboration reveal video.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section1" id="teamsCont">
+		<div class="team" id="pp">
+			<div class="teamLogo reveal" id="ppLogo"></div>
+			<div class="teamPhoto reveal" id="ppPhoto"></div>
+			<div class="teamPlace reveal" id="ppPlace">
+				<p>National Finals</p>
+				<h2>1st Place</h2>
+				<p>Development Class</p>
+			</div>
+			<div class="teamAward ppAward reveal">Best Engineering CAD</div>
+			<a class="button2 reveal" href="https://perpetrol.com" id="b21">
+						<div class="button2Indicator">
+							<div class="b2-1"></div>
+							<div class="b2-2"></div>
+							<div class="b2-3"></div>
+						</div>
+						<div class="button2PCont">
+							<p>Team Website</p>
+						</div>
+					</a>
+		</div>
+		<div class="team" id="ao">
+			<div class="teamLogo reveal" id="aoLogo"></div>
+			<div class="teamPhoto reveal" id="aoPhoto"></div>
+			<div class="teamPlace reveal" id="aoPlace">
+				<p>National Finals</p>
+				<h2>2nd Place</h2>
+				<p>Development Class</p>
+			</div>
+			<div class="teamAward aoAward reveal">Best Graphic Design</div>
+			<div class="teamAward aoAward reveal">Best Team Marketing</div>
+			<div class="teamAward aoAward reveal">Best Trade Display</div>
+			<a class="button2 reveal" href="https://aeolusracingaus.wixsite.com/website" id="b22">
+						<div class="button2Indicator">
+							<div class="b2-1"></div>
+							<div class="b2-2"></div>
+							<div class="b2-3"></div>
+						</div>
+						<div class="button2PCont">
+							<p>Team Website</p>
+						</div>
+					</a>
+		</div>
+	</div>
+	<div id="footer">
+			<div id="footerCont">
+				<div id="footLeft">
+					<div id="footLogo">
+				    	<img src="media/logo_name_white.png" width="9036" height="2779" alt=""/> 
+					</div>
+					<div id="footName">&copy; Nicholas Hayes 2021</div>
+				</div>
+				<div id="footRight">
+					<div id="qs">
+						<div id="qsTitle">
+							<p>Stay Connected</p>
+							<div></div>
+						</div>
+						<div id="qsC">
+							<a id="faceQs" class="qsL" href="https://www.facebook.com/teamaqueous" target="_blank">
+								<div></div>
+							</a>
+							<a id="instaQs" class="qsL" href="http://www.instagram.com/teamaqueous/" target="_blank">
+								<div></div>
+							</a>
+							<a id="discordQs" class="qsL" href="https://discord.gg/kq4hA3mmnF" target="_blank">
+								<div></div>
+							</a>
+							<a id="mailQs" class="qsL" href="mailto:contact@teamaqueous.com">
+								<div></div>
+							</a>
+						</div>
+					</div>
+					<div id="qm">
+						<div id="qmTitle">
+							<p>Quick Menu</p>
+							<div></div>
+						</div>
+						<div id="qmLinks">
+							<a class="qmLink" href="https://teamaqueous.com">
+								<p>Home</p>
+							</a>
+							<a class="qmLink" href="about-us/">
+								<p>About Us</p>
+							</a>
+							<a class="qmLink" href="about-f1-in-schools/">
+								<p>F1 in Schools &trade;</p>
+							</a>
+							<a class="qmLink" href="support-us/">
+								<p>Support Us</p>
+							</a>
+							<a class="qmLink" href="contact-us/">
+								<p>Contact</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </body>
 </html>

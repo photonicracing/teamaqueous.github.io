@@ -64,6 +64,7 @@ body {
 	margin-top: -50vh;
 	transition: 1.2s;
 	backdrop-filter: blur(15px) brightness(1);
+	-webkit-backdrop-filter: blur(15px) brightness(1);
 }
 
 #headerCont {
@@ -1436,32 +1437,3 @@ body {
 		width: 75vw;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
