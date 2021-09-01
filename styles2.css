@@ -3,6 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: font;
+  src: url("fonts/Adam-Medium.ttf");
+}
+
+
 /* Page Theme Colours
 Light Blue: #3ADBFD
 Blue: #2D9FFE
@@ -412,12 +420,12 @@ body {
 }
 
 .lower {
-	margin-bottom: -55px;
+	margin-bottom: -60px;
 	margin-top: 0;
 }
 
 .upper {
-	margin-top: -55px;
+	margin-top: -60px;
 	margin-bottom: 0;
 }
 
@@ -640,7 +648,6 @@ body {
 	width: 30vw;
 	padding: 3vw;
 	margin: auto;
-	margin-top: 0;
 	border-radius: 1vw;
 	display: flex;
 	align-content: space-around;
@@ -653,12 +660,14 @@ body {
 	background:#161616;
 	color: white;
 	border: solid 0.5vw #7400FF;
+	font-family: 'Roboto', sans-serif;
 }
 
 #ao {
 	background: white;
 	color: black;
-	border: solid 0.5vw #00A3FF;
+	border: solid 0.5vw #2FB1DE;
+	font-family: font;
 }
 
 .teamLogo {
@@ -679,6 +688,120 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.teamPhoto {
+	margin: auto;
+	width: 30vw;
+	height: 15vw;
+	border-radius: 1vw;
+	margin-top: 50px;
+}
+
+#ppPhoto {
+	background: url("media/ppteam.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#aoPhoto {
+	background: url("media/aoteam.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.teamPlace {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.teamPlace p {
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#aoPlace p {
+	font-weight: 600;
+}
+
+.teamPlace h2 {
+	font-size: 100px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.teamAward {
+	margin: auto;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	padding: 15px;
+	border-radius: 0.5vw;
+}
+
+.ppAward {
+	border: solid 0.25vw #00A3FF;
+}
+
+.aoAward {
+	border: solid 0.25vw #2FB1DE;
+}
+
+#pp .button2 {
+	border: solid 0.25vw #00A3FF;
+	margin-top: 20px;
+	border-radius: 0.25vw;
+}
+
+#pp .button2 p {
+	font-size: 25px;
+	color: white;
+}
+
+#ao .button2 {
+	border: solid 0.25vw #2FB1DE;
+	margin-top: 20px;
+	border-radius: 0.25vw;
+}
+
+#ao .button2 p {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+#pp .b2-1 {
+	height: 100%;
+	background: #00A3FF;
+}
+
+#pp .b2-2 {
+	height: 100%;
+	background: #0054FF;
+}
+
+#pp .b2-3 {
+	height: 100%;
+	background: #7400FF;
+}
+
+#ao .b2-1 {
+	height: 100%;
+	background: #2FB1DE;
+}
+
+#ao .b2-2 {
+	height: 100%;
+	background: #23A2CE;
+}
+
+#ao .b2-3 {
+	height: 100%;
+	background: #E6D231;
 }
 
 @media screen and (max-width: 1000px) {
