@@ -642,6 +642,7 @@ body {
 #teamsCont {
 	flex-direction: row;
 	justify-content: space-around;
+	margin-bottom: 50px;
 }
 
 .team {
@@ -654,6 +655,7 @@ body {
 	justify-content: space-around;
 	flex-direction: column;
 	margin-top: 80px;
+	height: 100%;
 }
 
 #pp {
@@ -758,6 +760,12 @@ body {
 	border-radius: 0.25vw;
 }
 
+#pp .button2:hover {
+	border: solid 0.25vw rgba(0,0,0,0);
+	margin-top: 20px;
+	border-radius: 0.25vw;
+}
+
 #pp .button2 p {
 	font-size: 25px;
 	color: white;
@@ -765,6 +773,12 @@ body {
 
 #ao .button2 {
 	border: solid 0.25vw #2FB1DE;
+	margin-top: 20px;
+	border-radius: 0.25vw;
+}
+
+#ao .button2:hover {
+	border: solid 0.25vw rgba(255,255,255,0);
 	margin-top: 20px;
 	border-radius: 0.25vw;
 }
@@ -781,7 +795,7 @@ body {
 
 #pp .b2-2 {
 	height: 100%;
-	background: #0054FF;
+	background: #0089FF;
 }
 
 #pp .b2-3 {
@@ -802,6 +816,153 @@ body {
 #ao .b2-3 {
 	height: 100%;
 	background: #E6D231;
+}
+
+#memberCont {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.memberBox {
+	margin: auto;
+	width: 35vw;
+	height: 15vw;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	padding: 2.5vw;
+}
+
+.memberImg {
+	height: 15vw;
+	width: 10vw;
+	margin: auto;
+}
+
+.memberCont {
+	width: 25vw;
+	height: 15vw;
+	margin: auto;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: center;
+}
+
+.memberCont p {
+	margin: auto;
+	width: 80%;
+}
+
+.affil {
+	width: 10vw;
+	padding: 3vw;
+	flex-direction: column;
+	height: 25vw;
+}
+
+.affil .memberImg {
+	width: 10vw;
+	height: 15vw;
+}
+
+.affil .memberCont {
+	width: 10vw;
+	height: 10vw;
+}
+
+.memberName {
+	font-weight: 700;
+	font-size: 1.7vw;
+	margin-bottom: 0;
+}
+
+.memberRole {
+	font-size: 1.3vw;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.memberText {
+	font-size: 1.1vw;
+}
+
+.affil .memberCont .memberRole {
+	font-size: 1.1vw;
+	margin-top: 0;
+}
+
+.affil .memberCont p {
+	text-align: center;
+}
+
+#ly {
+	background: url("media/lukas.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#nh {
+	background: url("media/nick.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pz {
+	background: url("media/preston.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#bk {
+	background: url("media/bill.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#hb {
+	background: url("media/harry.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cb {
+	background: url("media/charlie.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#jb {
+	background: url("media/julian.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cl {
+	background: url("media/casper.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#ma {
+	background: url("media/max.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 @media screen and (max-width: 1000px) {
