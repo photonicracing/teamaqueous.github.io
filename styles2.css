@@ -999,6 +999,151 @@ body {
 		width: 100%;
 		margin-top: 50px;
 	}
+	
+	.section2Cont {
+		flex-direction: column;
+	}
+	
+	.button2 {
+		width: 50vw;
+		height: 19vw;
+		border: solid 1vw #1067DD;
+	}
+	
+	.button2PCont {
+		margin-top: -19vw;
+	}
+	
+	#pp {
+		border: solid 1.5vw #7400FF;
+		border-radius: 3vw;
+	}
+
+	#ao {
+		border: solid 1.5vw #2FB1DE;
+		border-radius: 3vw;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	#pp .button2 {
+		border: solid 1vw #2FB1DE;
+		border-radius: 1vw;
+	}
+	
+	#ao .button2 {
+		border: solid 1vw #00A3FF;
+		border-radius: 1vw;
+	}
+	
+	#pp .button2:hover {
+		border: solid 1vw rgba(0,0,0,0);
+		border-radius: 1vw;
+	}
+	
+	#ao .button2:hover {
+		border: solid 1vw rgba(0,0,0,0);
+		border-radius: 1vw;
+	}
+	
+	#pp .button2 p {
+		font-size: 6vw;
+	}
+	
+	#ao .button2 p {
+		font-size: 6vw;
+	}
+	
+	#rvBefore {
+		width: 100%;
+	}
+	
+	#revealVideo {
+		width: 100%;
+	}
+	
+	#revealVideo iframe {
+		width: 80vw;
+		height: 45vw;
+	}
+	
+	#teamsCont {
+		flex-direction: column;
+	}
+	
+	.team {
+		width: 80%;
+	}
+	
+	.teamLogo {
+		width: 70vw;
+		height: 30vw;
+	}
+	
+	.teamPhoto {
+		width: 70vw;
+		height: 35vw;
+	}
+	
+	.teamPlace {
+		width: 70vw;
+		margin: auto;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+	}
+	
+	.teamAward {
+		border: none;
+	}
+	
+	.memberCont {
+		flex-direction: column;
+	}
+	
+	.memberBox {
+		width: 70vw;
+		height: 30vw;
+	}
+	
+	.memberImg {
+		width: 20vw;
+		height: 30vw;
+	}
+	
+	.memberCont {
+		width: 50vw;
+		height: 30vw;
+	}
+	
+	.affil {
+		width: 20vw;
+		height: 50vw;
+	}
+	
+	.affil .memberCont {
+		width: 20vw;
+		height: 20vw;
+	}
+	
+	.affil .memberImg {
+		width: 20vw;
+		height: 30vw;
+	}
+	
+	.memberName {
+		font-size: 4.5vw;
+	}
+	
+	.memberRole {
+		font-size: 3vw;
+	}
+	
+	.memberText {
+		font-size: 2vw;
+	}
+	
+	.affil .memberCont .memberRole {
+		font-size: 2.5vw;
+	}
 }
 
 .reveal{
