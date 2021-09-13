@@ -2,11 +2,215 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Coming soon...</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
+<title>About F1S</title>
+<link href="styles2.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/jpg" href="media/favicon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 25;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+</script>
+<script>
+	
+function myFunction() {
+  var x = document.getElementById("navBar");
+  if (x.className === "navBar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navBar";
+  }
+}
+	
+</script>
 </head>
 
-<body style="display: flex; align-content: center; justify-content: center; width: 100vw; height: 100vh;">
-	<h1 style="color: #2D9FFE; font-family: sans-serif; font-weight: 700; font-size: 100px; margin: auto;">Coming soon...</h1>
+<body>
+	<div id="header">
+	  <div id="headerCont">
+		<div id="headLogoCont">
+			<img id="navLogo" src="media/logo_name.png" width="9036" height="2779" alt=""/>
+		</div>
+		<div id="navBar" class="navBar">
+				<a href="https://teamaqueous.com" class="navLink" target="_self">
+					<div class="navLinkText">Home</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="about-us" class="navLink" target="_self">
+					<div class="navLinkText">About Us</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+					</div></a>
+				<a href="about-f1-in-schools" class="navLink" target="_self">
+					<div class="navLinkText">F1 in Schools &trade;</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="support-us" class="navLink" target="_self">
+					<div class="navLinkText">Support Us</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="contact-us" class="navLink" target="_self">
+					<div class="navLinkText">Contact</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="javascript:void(0);" class="icon navLink" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  				</a>
+		</div>
+	  </div>
+	</div>
+	<div class="headerImg" id="hiAboutF1S"></div>
+	<div class="transitionCont upper">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M2000,57.3c0,0-248.8-50-428.6-51.1S1124.4,48.1,963,60.7S659.1,36,520.7,35.3C382.2,34.5,58.2,75.1,0,68.2
+	l0,103.1l2000,0V57.3z"/>
+<path class="st1" d="M2000,51.7c-89.9-6.3-203.2-13.3-378.1-16.1C1266,29.8,727.2,99.4,519.6,96.3S149,37.7,0,57.6l0,113.7l2000,0
+	V51.7z"/>
+<path class="st2" d="M0,122.1v49.2l2000,0V45.2c-241-23.7-714.1,73.5-902.6,70.5C909,112.6,722.9,85,560.5,85S91.7,111.8,0,122.1z"
+	/>
+<path class="st3" d="M0,122.1v49.2l2000,0V73.5c-132.3-8.9-221.2,79-381.8,79s-256.1-43.3-488.5-47.1s-482.8,66.2-661.1,66
+	C290.2,171.1,106.1,102.8,0,79.2"/>
+</svg>
+	</div>
+	<div class="section1">
+		<div class="section1Cont">
+			<p class="section1Title reveal">About F1 in Schools&trade;</p>
+			<p class="section1Quote reveal smallQuote"><span>"</span>Spanning age ranges of 9 to 19 our main objective is to help change the perceptions of science, technology, engineering and maths by creating a fun and exciting learning environment for young people to develop an informed view about careers in engineering, Formula 1, science, marketing and technology.<span>"</span></p>
+			<p class="section1Text reveal">- Our Mission, F1 in Schools</p>
+		</div>
+	</div>
+	<div class="section1">
+		<div class="section2Cont">
+			<div class="section2Half adjust1-1">
+				<p class="section2SubTitle reveal">The Challenge</p>
+				<p class="section2Text2 reveal">The F1 in Schools&trade; STEM Challenge is the worlds largest high school engineering competition, with 17,000 schools over 51 countries getting involved.</p>
+				<p class="section2Text2 reveal">Participants forms teams of up to 6 people, to compete against other teams in their region to produce the fastest miniature Formula One&reg; car. This is the primary aim, but this only contrubutes to around a quarter of a team's overall score. Teams are also assessed on their engineering ideas, processes, innovations, project management, leadership, marketing, communication, and graphic design.</p>
+				<p class="section2Text2 reveal">F1 in Schools&trade; is heavily endorsed by Formula One&reg;, often with National Finals and World Finals previousley held alongside Formula One&trade; races.</p>
+			</div>
+			<div class="section2Half imgCont adjust1-2">
+				<div class="sec2Img reveal imgAlign topImg" id="wf2019"></div>
+				<p class="caption1 capAlign reveal">The teams participating in the 2019 World Finals on the starting grid at the Formula 1 Etihad Airways Abu Dhabi Grand Prix.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section1">
+		<div class="section2Cont">
+			<div class="section2Half imgCont adjust2-2">
+				<div class="sec2Img imgAlign2 reveal topImg" id="cad"></div>
+				<p class="caption1 capAlign2 reveal">An example of the CAD software teams must use to design their cars.</p>
+				<div class="sec2Img imgAlign2 reveal lowH" id="wind"></div>
+				<p class="caption1 capAlign2 reveal">Wind tunnel testing of a car prototype.</p>
+			</div>
+			<div class="section2Half adjust2-1">
+				<p class="section2SubTitle reveal">Engineering</p>
+				<p class="section2Text2 reveal">F1 in Schools&trade; cars are meticulously engineered, with teams testing hundereds of designs using a wide variety of physical and virtual testing methods.</p>
+				<p class="section2Text2 reveal">The teams engage with industry standard Computer Aided Design (CAD) parametric modelling software to design the car to a strict set of regulations, whilst innovating to find a competitive edge.</p>
+				<p class="section2Text2 reveal">Computaional Fluid Dyanamics and Finite Element Analysis testing is completed to virtually optimise the aerodynamic and structural elements of the car design before any prototypes are made. Teams also devise and perform investigations involving physical prototypes, such as impact testing, wind tunnel smoke trail analysis, track testing, and more.</p>
+				<p class="section2Text2 reveal">Teams also must manufacture the majority of their cars themselves, utilsing innovative manufacturing techniques such as 3D printing, CNC milling, and lathe based manufacturing.</p>
+				<p class="section2Text2 reveal">Each team must thoroughly document their engineering process in a portfolio, which is assessed by a panel of judges alongside a pair of interviews.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section1">
+		<div class="section2Cont">
+			<div class="section2Half adjust1-1">
+				<p class="section2SubTitle reveal">Enterprise</p>
+				<p class="section2Text2 reveal">In addition to the engineering a car, teams are assessed on the enterprise apsects of running a team. </p>
+				<p class="section2Text2 reveal">This includes all facets of the project management, as well as graphic design, communication, and marketing. Teams document all their enterprise related work in another portfolio, as well as constructing a display to showcase their team. These are assessed individually, and in a marketing interview and a formal presentation to a panel of judges.</p>
+				<p class="section2Text2 reveal">A large part of teams' enterprise assessment is their ability to raise funds for their team, and how they manage marketing their team to manage donations and sponsorship. Each team must have a fully comprehensive plan for their approach to giving sponsors a meaningful return on investment.</p>
+			</div>
+			<div class="section2Half imgCont adjust1-2">
+				<div class="sec2Img reveal imgAlign topImg" id="display"></div>
+				<p class="caption1 capAlign reveal">caption</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+			<div id="footerCont">
+				<div id="footLeft">
+					<div id="footLogo">
+				    	<img src="media/logo_name_white.png" width="9036" height="2779" alt=""/> 
+					</div>
+					<div id="footName">&copy; Nicholas Hayes 2021</div>
+				</div>
+				<div id="footRight">
+					<div id="qs">
+						<div id="qsTitle">
+							<p>Stay Connected</p>
+							<div></div>
+						</div>
+						<div id="qsC">
+							<a id="faceQs" class="qsL" href="https://www.facebook.com/teamaqueous" target="_blank">
+								<div></div>
+							</a>
+							<a id="instaQs" class="qsL" href="http://www.instagram.com/teamaqueous/" target="_blank">
+								<div></div>
+							</a>
+							<a id="discordQs" class="qsL" href="https://discord.gg/kq4hA3mmnF" target="_blank">
+								<div></div>
+							</a>
+							<a id="mailQs" class="qsL" href="mailto:contact@teamaqueous.com">
+								<div></div>
+							</a>
+						</div>
+					</div>
+					<div id="qm">
+						<div id="qmTitle">
+							<p>Quick Menu</p>
+							<div></div>
+						</div>
+						<div id="qmLinks">
+							<a class="qmLink" href="https://teamaqueous.com">
+								<p>Home</p>
+							</a>
+							<a class="qmLink" href="about-us">
+								<p>About Us</p>
+							</a>
+							<a class="qmLink" href="about-f1-in-schools">
+								<p>F1 in Schools &trade;</p>
+							</a>
+							<a class="qmLink" href="support-us">
+								<p>Support Us</p>
+							</a>
+							<a class="qmLink" href="contact-us">
+								<p>Contact</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </body>
 </html>

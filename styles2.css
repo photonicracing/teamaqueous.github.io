@@ -409,6 +409,15 @@ body {
 	background-position: center;
 }
 
+#hiAboutF1S {
+	margin-top: calc(2vw + 62px);
+	background: url("media/start_gate.png");
+	background-size: cover;
+	background-attachment:none;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
 .transitionCont svg {
 	width: 100%;
 }
@@ -503,6 +512,15 @@ body {
 	margin-top: 30px;
 }
 
+.section2Text2 {
+	margin: auto;
+	width: 100%;
+	font-size: 25px;
+	text-align: left;
+	line-height: 1.5em;
+	margin-top: 30px;
+}
+
 .section1Quote {
 	margin: auto;
 	font-size: 50px;
@@ -516,6 +534,11 @@ body {
 .section1Quote span {
 	font-weight: 700;
 	font-style:normal;
+}
+
+.smallQuote {
+	font-size: 40px;
+	margin-bottom: 0;
 }
 
 .section2Half {
@@ -554,6 +577,87 @@ body {
 #revealVideo .caption1 {
 	width: 100%;
 	margin-top: 10px;
+}
+
+.sec2Img {
+	width: 35vw;
+	height: 25vw;
+	margin: auto;
+}
+
+.imgCont {
+	align-content: center;
+}
+
+.imgAlign {
+	margin-left: 3vw;
+	margin-bottom: 1vw;
+}
+
+.capAlign {
+	width: 95%;
+	margin-top: 0;
+	margin-left: 3vw;
+}
+
+.adjust1-1 {
+	width: 55%;
+}
+
+.adjust1-2 {
+	width: 45%;
+}
+
+.imgAlign2 {
+	margin-right: 3vw;
+	margin-bottom: 1vw;
+}
+
+.capAlign2 {
+	width: 95%;
+	margin-top: 0;
+	margin-right: 3vw;
+}
+
+.adjust2-1 {
+	width: 55%;
+}
+
+.adjust2-2 {
+	width: 45%;
+}
+
+.lowH {
+	height: 15vw;
+}
+
+.topImg {
+	margin-top: 3vw;
+}
+
+.adjust2-1 p {
+	margin-left: 3vw;
+}
+
+#wf2019 {
+	background: url("media/wf2019.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cad {
+	background: url("media/cad.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#wind {
+	background: url("media/wind_tunnel.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .button2 {
