@@ -876,6 +876,14 @@ body {
 	margin: auto;
 }
 
+#pb-7 {
+	background: url("media/o3d.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
 .partnerBox:hover {
 	background: rgba(255,255,255,0.35);
 }
