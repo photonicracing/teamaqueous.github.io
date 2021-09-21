@@ -1358,32 +1358,32 @@ body {
 	}
 	
 	.section1Text {
-		font-size: 3.5vw;
+		font-size: 5.25vw;
 	}
 	
 	.section1Quote.smallQuote {
-		font-size: 4.5vw;
+		font-size: 6.75vw;
 		width: 100%;
 	}
 	
 	.section1Title {
-		font-size: 8.5vw;
+		font-size: 12vw;
 	}
 	
 	.section2SubTitle {
-		font-size: 7.5vw;
+		font-size: 10vw;
 	}
 	
 	.section2Text {
-		font-size: 3.5vw;
+		font-size: 5.25vw;
 	}
 	
 	.section2Text2 {
-		font-size: 3.5vw;
+		font-size: 5.25vw;
 	}
 	
 	.caption1 {
-		font-size: 3vw;
+		font-size: 4.5vw;
 	}
 }
 
