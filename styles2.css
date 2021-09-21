@@ -1349,13 +1349,42 @@ body {
 	}
 	
 	#hiAboutUs {
-	margin-top: calc(2vw + 62px);
-	background: url("media/about-us_header.png");
-	background-size: cover;
-	background-attachment:none;
-	background-repeat: no-repeat;
-	background-position: top;
-}
+		margin-top: calc(2vw + 62px);
+		background: url("media/about-us_header.png");
+		background-size: cover;
+		background-attachment:none;
+		background-repeat: no-repeat;
+		background-position: top;
+	}
+	
+	.section1Text {
+		font-size: 3.5vw;
+	}
+	
+	.section1Quote.smallQuote {
+		font-size: 4.5vw;
+		width: 100%;
+	}
+	
+	.section1Title {
+		font-size: 8.5vw;
+	}
+	
+	.section2SubTitle {
+		font-size: 7.5vw;
+	}
+	
+	.section2Text {
+		font-size: 3.5vw;
+	}
+	
+	.section2Text2 {
+		font-size: 3.5vw;
+	}
+	
+	.caption1 {
+		font-size: 3vw;
+	}
 }
 
 .reveal{
