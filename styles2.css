@@ -1347,6 +1347,15 @@ body {
 	.buttonCont {
 		flex-direction: column;
 	}
+	
+	#hiAboutUs {
+	margin-top: calc(2vw + 62px);
+	background: url("media/about-us_header.png");
+	background-size: cover;
+	background-attachment:none;
+	background-repeat: no-repeat;
+	background-position: top;
+}
 }
 
 .reveal{
