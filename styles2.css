@@ -1205,10 +1205,6 @@ textarea {
 	margin-bottom: 10px;
 }
 
-.light {
-	background: #E7EBF0;
-}
-
 .contactText {
 	margin: 0;
 	margin-bottom: 6px;
@@ -1489,6 +1485,52 @@ textarea {
 	
 	.caption1 {
 		font-size: 4.5vw;
+	}
+	
+	input {
+		width: 80vw;
+		border: solid 0.75vw #B5C1D0;
+		font-size: 5vw;
+		padding: 2vw;
+		margin-bottom: 4vw;
+	}
+	
+	textarea {
+		width: 80vw;
+		border: solid 0.75vw #B5C1D0;
+		font-size: 5vw;
+		padding: 2vw;
+		margin-bottom: 3vw;
+	}
+	
+	.formDiv {
+		height: 0.5vw;
+	}
+	
+	.contactInfoCont {
+		flex-direction: column;
+	}
+	
+	.contactBox {
+		width: 80vw;
+	}
+	
+	.contactTitle {
+		font-size: 6vw;
+	}
+
+	.contactDiv {
+		height: 0.5vw;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.contactText {
+		margin: 0;
+		margin-bottom: 6px;
+		margin-top: 6px;
+		font-size: 4.5vw;
+		font-weight: 500;
 	}
 }
 
