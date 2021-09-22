@@ -1144,25 +1144,77 @@ body {
 }
 
 input {
-	width: 750px;
+	width: 800px;
 	font-size: 20px;
-	border: solid 3px #97A1B1;
+	border: solid 3px #B5C1D0;
 	font-family: 'Comfortaa', cursive;
 	padding: 10px;
 	margin-bottom: 10px;
-	transition: 0.3s;
 	resize: vertical;
+	box-sizing: border-box;
 }
 
 textarea {
-	width: 750px;
+	width: 800px;
 	font-size: 20px;
-	border: solid 3px #97A1B1;
+	border: solid 3px #B5C1D0;
 	font-family: 'Comfortaa', cursive;
 	padding: 10px;
 	margin-bottom: 10px;
-	transition: 0.3s;
 	resize: vertical;
+	box-sizing: border-box;
+}
+
+.formDiv {
+	width: 100%;
+	margin-top: 50px;
+	height: 2px;
+	background: #E7EBF0;
+}
+
+.contactInfoCont {
+	margin: auto;
+	width: 800px;
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-bottom: 100px;
+}
+
+.contactBox {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: flex-start;
+}
+
+.contactTitle {
+	font-size: 25px;
+	font-weight: 700;
+	color: #1067DD;
+	margin-bottom: 0;
+}
+
+.contactDiv {
+	width: 100%;
+	height: 2px;
+	background: #E7EBF0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.light {
+	background: #E7EBF0;
+}
+
+.contactText {
+	margin: 0;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	font-size: 18px;
+	font-weight: 500;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1440,7 +1492,7 @@ textarea {
 	}
 }
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
