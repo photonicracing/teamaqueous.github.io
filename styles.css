@@ -800,7 +800,7 @@ body {
 	flex-wrap: wrap;
 	background: #1067DD;
 	margin-top: 50px;
-	width: 47vw;
+	width: 62.5vw;
 }
 
 .partnerBox {
@@ -878,6 +878,14 @@ body {
 
 #pb-7 {
 	background: url("media/o3d.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-8 {
+	background: url("media/keyshot.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
