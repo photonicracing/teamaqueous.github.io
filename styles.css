@@ -1456,4 +1456,11 @@ body {
 	#b21 {
 		width: 75vw;
 	}
+	
+	.reveal {
+  		position: relative;
+ 		transition: all 1s ease;
+		transform: translateY(0px);
+  		opacity: 1;
+	}
 }

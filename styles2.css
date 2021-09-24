@@ -1372,6 +1372,18 @@ textarea {
 	font-size: 20px;
 }
 
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 @media screen and (max-width: 1000px) {
 	#header {
 		background: white;
@@ -1750,16 +1762,11 @@ textarea {
 	.textInfo p {
 		text-align: center;
 	}
-}
-
-.reveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: all 1s ease;
-}
-
-.reveal.active{
-  transform: translateY(0px);
-  opacity: 1;
+	
+	.reveal {
+  		position: relative;
+ 		transition: all 1s ease;
+		transform: translateY(0px);
+  		opacity: 1;
+	}
 }
