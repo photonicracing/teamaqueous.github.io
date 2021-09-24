@@ -158,15 +158,15 @@ body {
 	width: 15%;
 }
 
-.navLink.active2 .nli1 {
+.navLink.current .nli1 {
 	width: 60%;
 }
 
-.navLink.active2 .nli2 {
+.navLink.current .nli2 {
 	width: 25%;
 }
 
-.navLink.active2 .nli3 {
+.navLink.current .nli3 {
 	width: 15%;
 }
 
