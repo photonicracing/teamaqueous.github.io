@@ -378,6 +378,13 @@ body {
 	background-position: center;
 }
 
+#tiktokQs div {
+	background: url("media/tiktok.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .qsL:hover {
 	background: rgba(255,255,255,0.2);
 }

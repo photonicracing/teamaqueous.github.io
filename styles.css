@@ -1011,6 +1011,13 @@ body {
 	background-position: center;
 }
 
+#tiktokL div {
+	background: url("media/tiktok.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .socialLink:hover div {
 	height: 60%;
 	width: 60%;
@@ -1189,6 +1196,13 @@ body {
 
 #discordQs div {
 	background: url("media/discord.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#tiktokQs div {
+	background: url("media/tiktok.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1398,7 +1412,7 @@ body {
 	}
 	
 	#sec5 {
-		height: 120vw;
+		height: 150vw;
 	}
 	
 	#sec5Cont {
