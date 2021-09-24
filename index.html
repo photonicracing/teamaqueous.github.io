@@ -1,15 +1,620 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>redirecting...</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<title>Aqueous | Home</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/jpg" href="media/favicon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+
+		window.onscroll = function() {scrollFunction1()};
+
+function scrollFunction1() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+	document.getElementById("header").style.marginTop = "0";
+	document.getElementById("arrow1").style.opacity = "0";
+	document.getElementById("headerDark").style.opacity = "0";
+	document.getElementById("contentCont").style.opacity = "1";
+  } else {
+	document.getElementById("header").style.marginTop = "-50vh";
+	document.getElementById("arrow1").style.opacity = "1";
+	document.getElementById("headerDark").style.opacity = "1";
+	document.getElementById("contentCont").style.opacity = "1";
+  }
+}
 	
-<meta http-equiv = "refresh" content = "0; url = https://teamaqueous9.wixsite.com/website/about" />
-<meta name="robots" content="noindex">
-	</head>
+</script>
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 25;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
+    }
+	</script>
+<script>
+	
+function myFunction() {
+  var x = document.getElementById("navBar");
+  if (x.className === "navBar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navBar";
+  }
+}
+	
+	</script>
+</head>
+
 <body>
+	<div id="header">
+	  <div id="headerCont">
+		<div id="headLogoCont">
+			<img id="navLogo" src="media/logo_name.png" width="9036" height="2779" alt=""/>
+		</div>
+		<div id="navBar" class="navBar">
+				<a href="https://teamaqueous.com" class="navLink" target="_self">
+					<div class="navLinkText">Home</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="about-us" class="navLink" target="_self">
+					<div class="navLinkText">About Us</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+					</div></a>
+				<a href="about-f1-in-schools" class="navLink" target="_self">
+					<div class="navLinkText">F1 in Schools &trade;</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="support-us" class="navLink" target="_self">
+					<div class="navLinkText">Support Us</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="contact-us" class="navLink" target="_self">
+					<div class="navLinkText">Contact</div><div class="navLinkIndicator">
+					<div class="nli1"></div>
+					<div class="nli2"></div>
+					<div class="nli3"></div>
+				</div></a>
+				<a href="javascript:void(0);" class="icon navLink" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  				</a>
+		</div>
+	  </div>
+	</div>
+	<div id="headerImgCont">
+		<div id="headerDark"></div>
+		<div id="headerLight"></div>
+		<div id="scrollInfo"><i class="arrow1" id="arrow1"></i></div>
+	</div>
+	<div id="spacer"></div>
+	<div id="contentCont">
+		<div class="transitionCont upper">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M2000,57.3c0,0-248.8-50-428.6-51.1S1124.4,48.1,963,60.7S659.1,36,520.7,35.3C382.2,34.5,58.2,75.1,0,68.2
+	l0,103.1l2000,0V57.3z"/>
+<path class="st1" d="M2000,51.7c-89.9-6.3-203.2-13.3-378.1-16.1C1266,29.8,727.2,99.4,519.6,96.3S149,37.7,0,57.6l0,113.7l2000,0
+	V51.7z"/>
+<path class="st2" d="M0,122.1v49.2l2000,0V45.2c-241-23.7-714.1,73.5-902.6,70.5C909,112.6,722.9,85,560.5,85S91.7,111.8,0,122.1z"
+	/>
+<path class="st3" d="M0,122.1v49.2l2000,0V73.5c-132.3-8.9-221.2,79-381.8,79s-256.1-43.3-488.5-47.1s-482.8,66.2-661.1,66
+	C290.2,171.1,106.1,102.8,0,79.2"/>
+</svg>
+		</div>
+		<div id="sec1">
+			<div id="sec1Cont" class="reveal">
+				<div id="sec1Left">
+					<p id="sec1Title">AUSTRALIAN NATIONAL CHAMPIONS</p>
+					<p id="sec1SubTitle">Development Class</p>
+				</div>
+				<div id="sec1Right">
+			    <img src="media/trophy.svg" alt=""/>
+				</div>
+			</div>
+		</div>
+		<div class="transitionCont lower">
+			<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M0,52.7v62.7v1.8V135v17.1c89.7-8,235.2-28.7,385.7-35h172.3c167.4,6.2,375.9,25.8,571.6,24.5
+	c232.5-1.5,328-18.8,488.5-18.8s249.5,35.1,381.8,31.6v-37.3v-1.8V52.7H0z"/>
+<path class="st1" d="M0,0l0,85.1c55.5-7.7,364.2,37.7,496.1,36.9c131.9-0.8,267.6-42.7,421.4-28.5c153.8,14.2,408.3,62.5,579.6,61.2
+	s408.4-57.3,408.4-57.3V0H0z"/>
+<path class="st2" d="M0,53.5V4.3l2000,0v126.1c-241,23.7-714.1-73.5-902.6-70.5C909,63,722.9,90.5,560.5,90.5S91.7,63.7,0,53.5z"/>
+<path class="st0" d="M1837.8-556.2c0,0-248.8,50-428.6,51.1S962.2-547,800.8-559.7S496.9-535,358.4-534.2S-104-574-162.2-567.1
+	l0-103.1l2000,0V-556.2z"/>
+<path class="st1" d="M1837.8-550.7c-89.9,6.3-203.2,13.3-378.1,16.1c-355.9,5.8-894.7-63.8-1102.3-60.7s-370.6,58.6-519.6,38.7
+	l0-113.7l2000,0V-550.7z"/>
+<path class="st2" d="M-162.2-621v-49.2l2000,0v126.1c-241,23.7-714.1-73.5-902.6-70.5C746.8-611.6,560.7-584,398.3-584
+	S-70.5-610.8-162.2-621z"/>
+<path class="st3" d="M0,0v63.2C89.9,70.9,203.1,79.5,378.1,83C734,90.1,1272.8,4.8,1480.4,8.6C1688,12.4,1851,80.4,2000,56l0-56H0z"
+	/>
+</svg>
+		</div>
+		<div id="sec2">
+			<div id="sec2Cont" class="reveal">
+				<div id="sec2Left">
+					<p id="sec2Title">TAKING ON THE WORLD</p>
+					<p id="sec2SubTitle">The F1 In Schools&trade; World Finals</p>
+				</div>
+				<div id="sec2Right">
+					<div id="teamAusCont">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 234.7 208" style="enable-background:new 0 0 234.7 208;" xml:space="preserve">
+<style type="text/css">
+	.st00{fill-rule:evenodd;clip-rule:evenodd;fill:#009444;stroke:#009444;stroke-miterlimit:10;}
+	.st11{fill:#D9BB27;stroke:#D9BB27;stroke-width:0.75;stroke-miterlimit:10;}
+	.st22{stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st33{fill:#D9BB27;stroke:#D9BB27;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<g id="Layer_22">
+</g>
+<g id="Layer_11">
+</g>
+<g id="Layer_33">
+</g>
+<g id="Layer_44">
+	<g>
+		<path class="st00" d="M150,48.1c0,0,0-14.2,0-20.9c12.3,8.9,47.7,37.7,47.7,74.1c0,19-7.5,34.9-22.4,47.3
+			c-8.5,7.1-17.1,10.9-20.8,12.4c-0.9-1.4-2.1-3.2-3.1-4.6c-8.6-12-20.5-18.5-34.2-18.7c-10.5-0.2-21.9,3.3-31.2,9.6l-2.3,1.6
+			c0,0-3.5,2.3-4.7,3.1c-3-0.5-12.6-2.4-22.1-8.2C42,134.6,34.4,120.5,34.4,102c0-39.5,61.9-56.2,76.8-59.7c0,2.7,0,5.8,0,5.8
+			c0,11.7,9.9,17.9,19.7,17.9C140.1,65.9,150,60.4,150,48.1L150,48.1z M144.5,22v26.1c0,8.6-6.9,12.4-13.6,12.4
+			c-6.8,0-14.2-3.9-14.2-12.4V35.6l-3.2,0.6c-0.9,0.1-21.2,4.1-41.8,13.9C43.7,63.5,29,81.4,29,102c0,25.7,13.7,39.5,25.3,46.5
+			c12.3,7.5,24.5,9,25,9l1,0.1l6.3-4.2l2.5-1.6c13.1-8.8,40-17.1,57.9,7.7c1.7,2.3,4.1,6.1,4.1,6.2l1.1,1.8l2-0.6
+			c0.5-0.1,12.4-4,24.4-14c11.2-9.3,24.5-25.8,24.5-51.7c0-19.4-9.5-39.7-27.3-58.7c-13.4-14.2-26.6-22.5-27.1-22.9l-4.2-2.6V22
+			L144.5,22z"/>
+		<path class="st00" d="M163.9,171.3c3.7-1,6.1-0.8,6.6-0.4c0.2,0.3,0.3,0.9,0.3,1.8c0,2.1-0.6,5.6-2.2,8.7c-1.4,2.7-2.7,3.7-3.3,3.7
+			c-3.9,0-7.6-7.1-7.6-10.4C157.9,174.1,160,172.4,163.9,171.3L163.9,171.3z M159.5,167c-4.8,2-7.4,4.7-7.4,7.6
+			c0,5.6,5.4,15.9,13.1,15.9c3.5,0,6.8-3.1,9-8.5c1.5-3.7,3.5-11.7,0.1-15.1C170.9,163.6,163.4,165.4,159.5,167L159.5,167z"/>
+		<g>
+			<path class="st11" d="M109.7,124.6H99.6v-0.4c0-1.4,0.2-2.4,0.5-3s1.1-0.9,2.4-0.9l2-0.1c0.4,0,0.8,0,1.1,0c0.3,0,0.8-0.1,1.5-0.2
+				c0.6-0.1,1-0.3,1.2-0.5c0.2-0.2,0.3-0.7,0.3-1.3c0-0.7-0.1-1.1-0.4-1.4c-0.3-0.3-0.8-0.4-1.4-0.4l-2.2-0.1l-1.7,0.1
+				c-0.7,0-1.2,0.1-1.5,0.4c-0.3,0.3-0.4,0.8-0.4,1.6l0,0.5h-1.1c0-1.2,0.1-2,0.4-2.4s0.8-0.8,1.5-0.8c0.7-0.1,1.3-0.1,1.6-0.2
+				s0.8,0,1.3,0h1.1c1.5,0,2.5,0.2,3.2,0.5s1,1.1,1,2.4c0,1-0.2,1.7-0.6,2.1c-0.4,0.4-1.1,0.7-2.1,0.7l-2.3,0.2l-1.9,0.2
+				c-0.9,0-1.4,0.2-1.6,0.5c-0.2,0.3-0.3,0.9-0.3,1.8h9V124.6z"/>
+			<path class="st11" d="M113.5,115.5l2.6-0.1l3,0.1c0.6,0,1.1,0.2,1.5,0.6c0.4,0.4,0.6,0.9,0.6,1.4c0.1,0.5,0.1,1,0.1,1.4
+				c0,0.4,0,0.9,0,1.4c0,1.1-0.1,2-0.2,2.5c-0.1,0.6-0.4,1-0.9,1.3c-0.5,0.3-1.2,0.5-2.3,0.5h-2h-2.1c-0.8,0-1.4-0.1-1.9-0.4
+				c-0.5-0.3-0.8-0.7-0.9-1.2s-0.2-1-0.2-1.5c0-0.5,0-0.9,0-1.4c0-0.7,0-1.2,0-1.5c0-0.4,0.1-0.8,0.2-1.4c0.1-0.6,0.4-1,0.8-1.3
+				C112.1,115.6,112.7,115.5,113.5,115.5z M114,123.7l1.9,0.1l2-0.1c0.7,0,1.2-0.1,1.5-0.3c0.3-0.2,0.5-0.5,0.6-0.9
+				c0.1-0.5,0.1-0.9,0.1-1.3c0-0.4,0-0.8,0-1.2c0-0.5,0-0.9,0-1.4c0-0.5-0.1-0.9-0.2-1.2c-0.1-0.4-0.3-0.6-0.6-0.7s-0.7-0.2-1.3-0.2
+				l-2-0.1l-2,0.1c-0.7,0-1.2,0.1-1.6,0.3c-0.3,0.2-0.5,0.5-0.6,1c0,0.5-0.1,0.9-0.1,1.3c0,0.4,0,0.8,0,1.2l0.1,2.1
+				c0.1,0.6,0.3,1,0.6,1.2C112.9,123.6,113.4,123.7,114,123.7z"/>
+			<path class="st11" d="M132.6,124.6h-10.1v-0.4c0-1.4,0.2-2.4,0.5-3s1.1-0.9,2.4-0.9l2-0.1c0.4,0,0.8,0,1.1,0
+				c0.3,0,0.8-0.1,1.5-0.2c0.6-0.1,1-0.3,1.2-0.5c0.2-0.2,0.3-0.7,0.3-1.3c0-0.7-0.1-1.1-0.4-1.4c-0.3-0.3-0.8-0.4-1.4-0.4l-2.2-0.1
+				l-1.7,0.1c-0.7,0-1.2,0.1-1.5,0.4c-0.3,0.3-0.4,0.8-0.4,1.6l0,0.5h-1.1c0-1.2,0.1-2,0.4-2.4s0.8-0.8,1.5-0.8
+				c0.7-0.1,1.3-0.1,1.6-0.2s0.8,0,1.3,0h1.1c1.5,0,2.5,0.2,3.2,0.5s1,1.1,1,2.4c0,1-0.2,1.7-0.6,2.1c-0.4,0.4-1.1,0.7-2.1,0.7
+				l-2.3,0.2l-1.9,0.2c-0.9,0-1.4,0.2-1.6,0.5c-0.2,0.3-0.3,0.9-0.3,1.8h9V124.6z"/>
+			<path class="st11" d="M134.8,118.4l3.8-2.9h1.4v9.1h-1.1v-8.2l-3.5,2.8L134.8,118.4z"/>
+			<path class="st11" d="M148.2,117.3c-0.6,0-1,0.1-1.3,0.3c-0.2,0.2-0.3,0.6-0.3,1.2l0,3.3l0,2c0,0.5,0.1,0.9,0.3,1.1
+				c0.2,0.2,0.5,0.3,0.9,0.3c0.2,0,0.4,0,0.7,0v0.9l-0.5,0c-0.7,0-1.3-0.1-1.7-0.4c-0.4-0.3-0.6-0.6-0.6-1.1c0-0.4-0.1-0.7-0.1-1
+				c0-0.3,0-0.5,0-0.6v-0.2v-1.7l0.1-2.8c0-0.8,0.2-1.3,0.6-1.6c0.4-0.3,1-0.5,1.8-0.5h0.4v0.9L148.2,117.3z"/>
+			<path class="st11" d="M158.5,124.6h-8.9v-0.3c0-1.2,0.1-2.1,0.4-2.6c0.3-0.5,1-0.8,2.1-0.8l1.8-0.1c0.4,0,0.7,0,1,0
+				c0.3,0,0.7-0.1,1.3-0.2c0.5-0.1,0.9-0.2,1.1-0.5c0.2-0.2,0.2-0.6,0.2-1.1c0-0.6-0.1-1-0.4-1.2c-0.2-0.2-0.7-0.4-1.3-0.4l-2-0.1
+				l-1.5,0c-0.6,0-1.1,0.1-1.3,0.4s-0.4,0.7-0.4,1.4l0,0.4h-0.9c0-1,0.1-1.7,0.4-2.1c0.2-0.4,0.7-0.7,1.3-0.7s1.1-0.1,1.4-0.1
+				c0.3,0,0.7,0,1.1,0h0.9c1.3,0,2.2,0.1,2.8,0.4c0.6,0.3,0.9,1,0.9,2.1c0,0.9-0.2,1.5-0.6,1.9c-0.4,0.4-1,0.6-1.9,0.6l-2.1,0.1
+				l-1.7,0.1c-0.8,0-1.2,0.1-1.4,0.4s-0.3,0.8-0.3,1.6h7.9V124.6z"/>
+			<path class="st11" d="M168.9,124.6H160v-0.3c0-1.2,0.1-2.1,0.4-2.6c0.3-0.5,1-0.8,2.1-0.8l1.8-0.1c0.4,0,0.7,0,1,0
+				c0.3,0,0.7-0.1,1.3-0.2c0.5-0.1,0.9-0.2,1.1-0.5c0.2-0.2,0.2-0.6,0.2-1.1c0-0.6-0.1-1-0.4-1.2c-0.2-0.2-0.7-0.4-1.3-0.4l-2-0.1
+				l-1.5,0c-0.6,0-1.1,0.1-1.3,0.4s-0.4,0.7-0.4,1.4l0,0.4h-0.9c0-1,0.1-1.7,0.4-2.1c0.2-0.4,0.7-0.7,1.3-0.7s1.1-0.1,1.4-0.1
+				c0.3,0,0.7,0,1.1,0h0.9c1.3,0,2.2,0.1,2.8,0.4c0.6,0.3,0.9,1,0.9,2.1c0,0.9-0.2,1.5-0.6,1.9c-0.4,0.4-1,0.6-1.9,0.6l-2.1,0.1
+				l-1.7,0.1c-0.8,0-1.2,0.1-1.4,0.4s-0.3,0.8-0.3,1.6h7.9V124.6z"/>
+			<path class="st11" d="M170.1,125.5c0.6,0,1-0.1,1.3-0.3c0.2-0.2,0.3-0.6,0.3-1.2l0-3.3l0-2c0-0.5-0.1-0.9-0.3-1.1
+				c-0.2-0.2-0.5-0.3-0.9-0.3c-0.2,0-0.4,0-0.7,0v-0.9l0.5,0c0.7,0,1.3,0.1,1.7,0.4c0.4,0.3,0.6,0.6,0.6,1.1s0.1,0.8,0.1,1.1
+				s0,0.5,0,0.7v1.7l-0.1,2.8c0,0.8-0.2,1.3-0.6,1.6c-0.4,0.3-1,0.5-1.8,0.5h-0.4v-0.9L170.1,125.5z"/>
+		</g>
+		<g>
+			<g>
+				<path class="st22" d="M61,108.1c-0.3,0.6-0.7,1-1.2,1.2c-0.5,0.2-1.1,0.4-1.8,0.4l-3.6,0.1h-1.7c-2.3,0-3.9-0.3-4.6-1
+					s-1.1-1.7-1.1-2.9c0-1.4,0.3-2.4,0.8-3c0.5-0.6,1.3-0.9,2.2-1c0.9-0.1,1.8-0.2,2.5-0.2c0.7,0,1.4,0,2.1,0l3.7,0.1
+					c0.7,0,1.2,0.1,1.6,0.3s0.8,0.6,1.2,1.2v-1.4c0-0.8-0.1-1.5-0.2-2c-0.1-0.5-0.4-1-0.9-1.3c-0.5-0.3-1.2-0.5-2.3-0.5
+					C56.5,98,55.7,98,55.2,98c-0.6,0-1.3,0-1.9,0c-0.6,0-1.3,0.1-2,0.2c-0.7,0.1-1.2,0.3-1.5,0.7c-0.3,0.4-0.4,0.9-0.4,1.6h-2.1
+					c0-1.4,0.3-2.4,0.9-3s1.5-0.9,2.8-1c1.2-0.1,2.4-0.2,3.4-0.2c1.3,0,2.3,0,3.2,0.1c0.8,0,1.8,0.2,2.7,0.5s1.7,0.8,2,1.6
+					c0.4,0.8,0.6,1.8,0.6,3.1v8.3h-2V108.1z M54.3,108.1h0.6c1,0,1.8,0,2.5-0.1c0.7,0,1.5-0.2,2.3-0.4c0.8-0.2,1.2-0.9,1.2-1.9
+					c0-0.9-0.3-1.5-0.8-1.7s-1.2-0.4-1.8-0.5c-0.6-0.1-1.4-0.1-2.2-0.1l-1.7,0c-1.4,0-2.3,0-2.9,0.1c-0.6,0.1-1.1,0.2-1.5,0.3
+					c-0.5,0.2-0.8,0.4-0.9,0.8c-0.2,0.3-0.2,0.8-0.2,1.3c0,0.7,0.2,1.2,0.6,1.6c0.4,0.4,1.2,0.6,2.5,0.6L54.3,108.1z"/>
+				<path class="st22" d="M81.4,107.1c-0.3,0.9-0.9,1.5-1.8,2s-2.3,0.7-4.2,0.7c-3.2,0-5.3-0.4-6.3-1.3c-1-0.9-1.5-2.2-1.5-3.9v-0.4
+					v-7.8h2v7.3c0,1.9,0.4,3.2,1.2,3.7c0.8,0.5,2.3,0.8,4.3,0.8c2.2,0,3.8-0.3,4.8-0.8c1.1-0.5,1.6-1.7,1.6-3.7v-7.3h2v13.3h-2
+					V107.1z"/>
+				<path class="st22" d="M99.4,98.1L95.5,98c-0.8,0-1.5,0-2,0c-0.5,0-1.1,0.1-1.7,0.2c-0.6,0.1-1.2,0.3-1.6,0.5
+					c-0.4,0.3-0.6,0.7-0.6,1.3c0,0.8,0.2,1.3,0.6,1.6c0.4,0.3,1,0.4,1.9,0.4l3.4,0.1h3.7c1.6,0,2.8,0.3,3.6,0.8s1.2,1.5,1.2,3.1
+					c0,1.7-0.5,2.8-1.4,3.3c-0.9,0.4-2.4,0.7-4.3,0.7l-3.7,0.1c-1.1,0-2,0-2.6,0c-0.6,0-1.3-0.1-2.2-0.3c-0.9-0.2-1.5-0.6-1.9-1.2
+					c-0.4-0.6-0.6-1.5-0.6-2.6l0-0.6h2l0,0.3c0,0.9,0.2,1.5,0.6,1.9c0.4,0.3,1,0.6,2,0.6l3.5,0.1H96h0.5c1.2,0,2.2-0.1,3.1-0.2
+					c0.9-0.1,1.5-0.3,1.8-0.5s0.5-0.7,0.5-1.3c0-0.9-0.2-1.6-0.7-1.9c-0.5-0.3-1.2-0.5-2.2-0.5l-3.6,0H92c-1.5,0-2.6-0.2-3.4-0.7
+					c-0.8-0.5-1.2-1.4-1.2-2.8c0-1.3,0.4-2.3,1.1-2.9c0.8-0.6,1.8-0.9,3.1-0.9l3.8-0.2c0.7,0,1.4,0,2,0c0.7,0,1.4,0.1,2.2,0.1
+					c1.4,0,2.3,0.3,2.9,0.9c0.6,0.6,0.9,1.5,0.9,2.9h-2c-0.1-0.8-0.2-1.3-0.5-1.5C100.8,98.3,100.2,98.2,99.4,98.1z"/>
+				<path class="st22" d="M119.7,98.1h-9.2v6.4c0,1.5,0.3,2.5,0.8,2.9c0.5,0.5,1.5,0.7,3,0.7c1.4,0,2.4-0.2,3-0.5
+					c0.6-0.3,1-1.2,1-2.4v-1.6h1.8c0,2.5-0.3,4.2-0.9,5.1c-0.6,0.8-2.1,1.2-4.6,1.2c-2.1,0-3.6-0.3-4.5-0.8c-1-0.5-1.4-1.8-1.4-3.7
+					v-0.9v-6.4h-3.2v-1.7h3.2v-3h2v3h9.2V98.1z"/>
+				<path class="st22" d="M124.9,98.7c0.3-0.8,0.8-1.4,1.5-1.9c0.8-0.5,2-0.7,3.7-0.7c2.5,0,4.3,0.3,5.3,0.9c1,0.6,1.5,2.1,1.5,4.4
+					v0.6h-2c0-1.7-0.3-2.8-0.8-3.4c-0.5-0.6-1.6-0.9-3.3-0.9h-0.7c-1.9,0-3.3,0.3-4.1,0.8c-0.8,0.5-1.2,1.7-1.2,3.5v7.4h-2V96.4h2
+					V98.7z"/>
+				<path class="st22" d="M153.5,108.1c-0.3,0.6-0.7,1-1.2,1.2c-0.5,0.2-1.1,0.4-1.8,0.4l-3.6,0.1h-1.7c-2.3,0-3.9-0.3-4.6-1
+					s-1.1-1.7-1.1-2.9c0-1.4,0.3-2.4,0.8-3c0.5-0.6,1.3-0.9,2.2-1c0.9-0.1,1.8-0.2,2.5-0.2c0.7,0,1.4,0,2.1,0l3.7,0.1
+					c0.7,0,1.2,0.1,1.6,0.3s0.8,0.6,1.2,1.2v-1.4c0-0.8-0.1-1.5-0.2-2c-0.1-0.5-0.4-1-0.9-1.3c-0.5-0.3-1.2-0.5-2.3-0.5
+					c-1.1-0.1-1.9-0.1-2.4-0.1c-0.6,0-1.3,0-1.9,0c-0.6,0-1.3,0.1-2,0.2c-0.7,0.1-1.2,0.3-1.5,0.7c-0.3,0.4-0.4,0.9-0.4,1.6h-2.1
+					c0-1.4,0.3-2.4,0.9-3s1.5-0.9,2.8-1c1.2-0.1,2.4-0.2,3.4-0.2c1.3,0,2.3,0,3.2,0.1c0.8,0,1.8,0.2,2.7,0.5s1.7,0.8,2,1.6
+					c0.4,0.8,0.6,1.8,0.6,3.1v8.3h-2V108.1z M146.8,108.1h0.6c1,0,1.8,0,2.5-0.1c0.7,0,1.5-0.2,2.3-0.4c0.8-0.2,1.2-0.9,1.2-1.9
+					c0-0.9-0.3-1.5-0.8-1.7s-1.2-0.4-1.8-0.5c-0.6-0.1-1.4-0.1-2.2-0.1l-1.7,0c-1.4,0-2.3,0-2.9,0.1c-0.6,0.1-1.1,0.2-1.5,0.3
+					c-0.5,0.2-0.8,0.4-0.9,0.8c-0.2,0.3-0.2,0.8-0.2,1.3c0,0.7,0.2,1.2,0.6,1.6c0.4,0.4,1.2,0.6,2.5,0.6L146.8,108.1z"/>
+				<path class="st22" d="M161.9,109.7h-2v-19h2V109.7z"/>
+				<path class="st22" d="M168.4,93.2h-2v-2.5h2V93.2z M168.4,109.7h-2V96.4h2V109.7z"/>
+				<path class="st22" d="M186.6,108.1c-0.3,0.6-0.7,1-1.2,1.2c-0.5,0.2-1.1,0.4-1.8,0.4l-3.6,0.1h-1.7c-2.3,0-3.9-0.3-4.6-1
+					s-1.1-1.7-1.1-2.9c0-1.4,0.3-2.4,0.8-3c0.5-0.6,1.3-0.9,2.2-1c0.9-0.1,1.8-0.2,2.5-0.2c0.7,0,1.4,0,2.1,0l3.7,0.1
+					c0.7,0,1.2,0.1,1.6,0.3s0.8,0.6,1.2,1.2v-1.4c0-0.8-0.1-1.5-0.2-2c-0.1-0.5-0.4-1-0.9-1.3c-0.5-0.3-1.2-0.5-2.3-0.5
+					c-1.1-0.1-1.9-0.1-2.4-0.1c-0.6,0-1.3,0-1.9,0c-0.6,0-1.3,0.1-2,0.2c-0.7,0.1-1.2,0.3-1.5,0.7c-0.3,0.4-0.4,0.9-0.4,1.6H173
+					c0-1.4,0.3-2.4,0.9-3s1.5-0.9,2.8-1c1.2-0.1,2.4-0.2,3.4-0.2c1.3,0,2.3,0,3.2,0.1c0.8,0,1.8,0.2,2.7,0.5s1.7,0.8,2,1.6
+					c0.4,0.8,0.6,1.8,0.6,3.1v8.3h-2V108.1z M179.9,108.1h0.6c1,0,1.8,0,2.5-0.1c0.7,0,1.5-0.2,2.3-0.4c0.8-0.2,1.2-0.9,1.2-1.9
+					c0-0.9-0.3-1.5-0.8-1.7s-1.2-0.4-1.8-0.5c-0.6-0.1-1.4-0.1-2.2-0.1l-1.7,0c-1.4,0-2.3,0-2.9,0.1c-0.6,0.1-1.1,0.2-1.5,0.3
+					c-0.5,0.2-0.8,0.4-0.9,0.8c-0.2,0.3-0.2,0.8-0.2,1.3c0,0.7,0.2,1.2,0.6,1.6c0.4,0.4,1.2,0.6,2.5,0.6L179.9,108.1z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st33" d="M57.8,82.3h-5.4V86c0,0.9,0.1,1.4,0.4,1.7c0.3,0.3,0.9,0.4,1.7,0.4c0.8,0,1.4-0.1,1.7-0.3
+					c0.4-0.2,0.6-0.7,0.6-1.4v-0.9H58c0,1.5-0.2,2.5-0.5,3c-0.3,0.5-1.2,0.7-2.7,0.7c-1.2,0-2.1-0.2-2.6-0.5c-0.6-0.3-0.8-1-0.8-2.1
+					V86v-3.7h-1.9v-1h1.9v-1.7h1.2v1.7h5.4V82.3z"/>
+				<path class="st33" d="M62.3,88c0.2,0,0.5,0.1,0.8,0.1c0.4,0,0.8,0,1.4,0h0.6c0.6,0,1,0,1.4,0c0.3,0,0.6-0.1,0.9-0.2
+					c0.3-0.1,0.5-0.3,0.6-0.5c0.1-0.2,0.2-0.4,0.2-0.7h1.2c0,1-0.4,1.7-1.2,2c-0.8,0.3-1.9,0.5-3.2,0.5c-1.4,0-2.5-0.1-3.1-0.2
+					c-0.7-0.1-1.2-0.5-1.7-1c-0.4-0.6-0.7-1.5-0.7-2.8c0-1.6,0.3-2.7,0.9-3.2c0.6-0.5,1.7-0.8,3.3-0.8h0.8c1.2,0,2.2,0.1,2.8,0.2
+					s1.1,0.5,1.5,1c0.4,0.5,0.6,1.4,0.6,2.6v0.4h-8.7c0,0.8,0.1,1.3,0.3,1.8C61.2,87.6,61.6,87.9,62.3,88z M65,82.2h-0.9
+					c-0.6,0-1.2,0-1.7,0.1s-0.9,0.2-1.1,0.4c-0.2,0.2-0.4,0.5-0.5,0.7c-0.1,0.3-0.1,0.6-0.1,0.9h7.5c0-0.3,0-0.6-0.1-0.9
+					c-0.1-0.3-0.2-0.5-0.4-0.7c-0.2-0.2-0.5-0.3-0.9-0.4C66.3,82.2,65.7,82.2,65,82.2z"/>
+				<path class="st33" d="M79.8,88.1c-0.2,0.3-0.4,0.6-0.7,0.7s-0.6,0.2-1.1,0.3l-2.1,0h-1c-1.4,0-2.3-0.2-2.7-0.6
+					c-0.4-0.4-0.7-1-0.7-1.7c0-0.8,0.2-1.4,0.5-1.8c0.3-0.3,0.7-0.5,1.3-0.6s1-0.1,1.5-0.1c0.4,0,0.8,0,1.2,0l2.2,0.1
+					c0.4,0,0.7,0.1,1,0.2c0.2,0.1,0.5,0.3,0.7,0.7v-0.8c0-0.5,0-0.9-0.1-1.2c-0.1-0.3-0.2-0.6-0.5-0.7s-0.7-0.3-1.3-0.3
+					s-1.1,0-1.4,0c-0.4,0-0.7,0-1.1,0s-0.7,0-1.1,0.1c-0.4,0.1-0.7,0.2-0.8,0.4c-0.2,0.2-0.2,0.5-0.2,0.9h-1.3
+					c0-0.8,0.2-1.4,0.5-1.7c0.4-0.3,0.9-0.5,1.6-0.6c0.7-0.1,1.4-0.1,2-0.1c0.7,0,1.4,0,1.9,0c0.5,0,1,0.1,1.6,0.3
+					c0.6,0.2,1,0.5,1.2,0.9c0.2,0.5,0.3,1.1,0.3,1.8V89h-1.2V88.1z M75.9,88.1h0.3c0.6,0,1.1,0,1.5,0c0.4,0,0.9-0.1,1.4-0.2
+					c0.5-0.1,0.7-0.5,0.7-1.1c0-0.5-0.2-0.9-0.5-1s-0.7-0.2-1.1-0.3c-0.4,0-0.8-0.1-1.3-0.1l-1,0c-0.8,0-1.3,0-1.7,0
+					c-0.3,0-0.6,0.1-0.9,0.2s-0.4,0.2-0.5,0.5s-0.1,0.5-0.1,0.8c0,0.4,0.1,0.7,0.4,0.9c0.2,0.2,0.7,0.3,1.5,0.3L75.9,88.1z"/>
+				<path class="st33" d="M84.7,82.5c0.2-0.6,0.6-0.9,1.1-1.1s1.2-0.2,2-0.2h0.2c1.1,0,1.9,0.1,2.5,0.3c0.6,0.2,1.1,0.6,1.4,1.4
+					c0.3-0.7,0.7-1.2,1.3-1.4c0.6-0.2,1.4-0.3,2.4-0.3c1.4,0,2.5,0.2,3.2,0.6s1.1,1.3,1.1,2.6V89h-1.2v-4.7c0-0.9-0.2-1.5-0.7-1.8
+					c-0.5-0.3-1.2-0.4-2.3-0.4h-0.4c-1.3,0-2.1,0.2-2.5,0.6c-0.4,0.4-0.6,0.9-0.6,1.6V89h-1.2v-4.7c0-0.7-0.2-1.3-0.6-1.6
+					c-0.4-0.4-1.2-0.5-2.6-0.5c-1.4,0-2.3,0.2-2.8,0.6s-0.6,1-0.6,1.8V89h-1.2v-7.7h1.2V82.5z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+					</div>
+				</div>
+			</div>
+			<div id="sec2Bottom" class="reveal">
+				<a class="button1" href="about-f1-in-schools">
+					<div class="button1Indicator">
+						<div class="b1-1"></div>
+						<div class="b1-2"></div>
+						<div class="b1-3"></div>
+					</div>
+					<div class="button1PCont">
+						<p>Learn More</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="transitionCont upper">
+			<svg version="1.1" id="Layer_8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M2000,57.3c0,0-248.8-50-428.6-51.1S1124.4,48.1,963,60.7S659.1,36,520.7,35.3C382.2,34.5,58.2,75.1,0,68.2
+	l0,103.1l2000,0V57.3z"/>
+<path class="st1" d="M2000,51.7c-89.9-6.3-203.2-13.3-378.1-16.1C1266,29.8,727.2,99.4,519.6,96.3S149,37.7,0,57.6l0,113.7l2000,0
+	V51.7z"/>
+<path class="st2" d="M0,122.1v49.2l2000,0V45.2c-241-23.7-714.1,73.5-902.6,70.5C909,112.6,722.9,85,560.5,85S91.7,111.8,0,122.1z"
+	/>
+<path class="st3" d="M0,122.1v49.2l2000,0V73.5c-132.3-8.9-221.2,79-381.8,79s-256.1-43.3-488.5-47.1s-482.8,66.2-661.1,66
+	C290.2,171.1,106.1,102.8,0,79.2"/>
+</svg>
+		</div>
+		<div id="sec3">
+			<div id="sec3Cont">
+				<div id="sec3Title">
+					<p>MEET THE TEAM</p>
+				</div>
+				<div id="memberCont">
+					<div class="memberBox reveal">
+						<div class="memberImg" id="ly"></div>
+						<div class="memberInfo">
+							<h3>Lukas Yee</h3>
+							<p>Team Manager</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="nh"></div>
+						<div class="memberInfo">
+							<h3>Nick Hayes</h3>
+							<p>Brand Coordinator</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="pz"></div>
+						<div class="memberInfo">
+							<h3>Preston Zhang</h3>
+							<p>Resource Coordinator</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="bk"></div>
+						<div class="memberInfo">
+							<h3>Bill Klein</h3>
+							<p>Manufacturing</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="hb"></div>
+						<div class="memberInfo">
+							<h3>Harry Board</h3>
+							<p>Design Engineer</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="cb"></div>
+						<div class="memberInfo">
+							<h3>Charlie Burgess</h3>
+							<p>Testing Engineer</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="jb"></div>
+						<div class="memberInfo">
+							<h3>Julian Bray</h3>
+							<p>Affiliate Member</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="cl"></div>
+						<div class="memberInfo">
+							<h3>Casper Larkin</h3>
+							<p>Affiliate Member</p>
+						</div>
+					</div>
+					<div class="memberBox reveal">
+						<div class="memberImg" id="ma"></div>
+						<div class="memberInfo">
+							<h3>Max Amoyal</h3>
+							<p>Affiliate Member</p>
+						</div>
+					</div>
+				</div>
+				<div id="sec3ButtonCont">
+					<a class="button2 reveal" href="about-us" id="b21">
+						<div class="button2Indicator">
+							<div class="b2-1"></div>
+							<div class="b2-2"></div>
+							<div class="b2-3"></div>
+						</div>
+						<div class="button2PCont">
+							<p>Learn More About Us</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="transitionCont lower">
+			<svg version="1.1" id="Layer_9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M0,52.7v62.7v1.8V135v17.1c89.7-8,235.2-28.7,385.7-35h172.3c167.4,6.2,375.9,25.8,571.6,24.5
+	c232.5-1.5,328-18.8,488.5-18.8s249.5,35.1,381.8,31.6v-37.3v-1.8V52.7H0z"/>
+<path class="st1" d="M0,0l0,85.1c55.5-7.7,364.2,37.7,496.1,36.9c131.9-0.8,267.6-42.7,421.4-28.5c153.8,14.2,408.3,62.5,579.6,61.2
+	s408.4-57.3,408.4-57.3V0H0z"/>
+<path class="st2" d="M0,53.5V4.3l2000,0v126.1c-241,23.7-714.1-73.5-902.6-70.5C909,63,722.9,90.5,560.5,90.5S91.7,63.7,0,53.5z"/>
+<path class="st0" d="M1837.8-556.2c0,0-248.8,50-428.6,51.1S962.2-547,800.8-559.7S496.9-535,358.4-534.2S-104-574-162.2-567.1
+	l0-103.1l2000,0V-556.2z"/>
+<path class="st1" d="M1837.8-550.7c-89.9,6.3-203.2,13.3-378.1,16.1c-355.9,5.8-894.7-63.8-1102.3-60.7s-370.6,58.6-519.6,38.7
+	l0-113.7l2000,0V-550.7z"/>
+<path class="st2" d="M-162.2-621v-49.2l2000,0v126.1c-241,23.7-714.1-73.5-902.6-70.5C746.8-611.6,560.7-584,398.3-584
+	S-70.5-610.8-162.2-621z"/>
+<path class="st3" d="M0,0v63.2C89.9,70.9,203.1,79.5,378.1,83C734,90.1,1272.8,4.8,1480.4,8.6C1688,12.4,1851,80.4,2000,56l0-56H0z"
+	/>
+</svg>
+		</div>
+		<div id="sec4">
+			<div id="sec4Cont">
+				<div id="sec4Title" class="reveal">
+					<p>OUR PARTNERS</p>
+				</div>
+				<div id="partnerCont" class="reveal">
+					<a class="partnerBox" href="https://www.leapaust.com.au" target="_blank">
+						<div id="pb-5"></div>
+					</a>
+					<a class="partnerBox middlePB" href="https://www.ansys.com" target="_blank">
+						<div id="pb-6"></div>
+					</a>
+					<a class="partnerBox middlePB" href="https://www.keyshot.com" target="_blank">
+						<div id="pb-8"></div>
+					</a>
+					<a class="partnerBox middlePB" href="https://www.objective3d.com.au" target="_blank">
+						<div id="pb-7"></div>
+					</a>
+					<a class="partnerBox lowerPB" href="https://rea.org.au" target="_blank">
+						<div id="pb-2"></div>
+					</a>
+					<a class="partnerBox middlePB lowerPB" href="https://www.capral.com.au" target="_blank">
+						<div id="pb-1"></div>
+					</a>
+					<a class="partnerBox middlePB lowerPB" href="https://www.bmgs.nsw.edu.au" target="_blank">
+						<div id="pb-3"></div>
+					</a>
+					<a class="partnerBox middlePB lowerPB" href="https://www.newington.nsw.edu.au" target="_blank">
+						<div id="pb-4"></div>
+					</a>
+				</div>
+				<div id="supportUs">
+					<p id="sup" class="reveal">Want to support our team?</p>
+					<a class="button2 reveal" href="support-us" id="b22">
+						<div class="button2Indicator">
+							<div class="b2-1"></div>
+							<div class="b2-2"></div>
+							<div class="b2-3"></div>
+						</div>
+						<div class="button2PCont">
+							<p>Learn More</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="transitionCont upper">
+			<svg version="1.1" id="Layer_10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st69{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M2000,57.3c0,0-248.8-50-428.6-51.1S1124.4,48.1,963,60.7S659.1,36,520.7,35.3C382.2,34.5,58.2,75.1,0,68.2
+	l0,103.1l2000,0V57.3z"/>
+<path class="st1" d="M2000,51.7c-89.9-6.3-203.2-13.3-378.1-16.1C1266,29.8,727.2,99.4,519.6,96.3S149,37.7,0,57.6l0,113.7l2000,0
+	V51.7z"/>
+<path class="st2" d="M0,122.1v49.2l2000,0V45.2c-241-23.7-714.1,73.5-902.6,70.5C909,112.6,722.9,85,560.5,85S91.7,111.8,0,122.1z"
+	/>
+<path class="st69" d="M0,122.1v49.2l2000,0V73.5c-132.3-8.9-221.2,79-381.8,79s-256.1-43.3-488.5-47.1s-482.8,66.2-661.1,66
+	C290.2,171.1,106.1,102.8,0,79.2"/>
+</svg>
+		</div>
+		<div id="sec5">
+			<div id="sec5Cont">
+				<div id="sec5Title" class="reveal">Stay Connected</div>
+				<div id="socialLinks">
+					<a id="faceL" class="socialLink reveal" href="https://www.facebook.com/teamaqueous" target="_blank">
+						<div></div>
+					</a>
+					<a id="instaL" class="socialLink reveal" href="http://www.instagram.com/teamaqueous/" target="_blank">
+						<div></div>
+					</a>
+					<a id="discordL" class="socialLink reveal" href="https://discord.gg/kq4hA3mmnF" target="_blank">
+						<div></div>
+					</a>
+					<a id="mailL" class="socialLink reveal" href="mailto:contact@teamaqueous.com">
+						<div></div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="transitionCont lower">
+			<svg version="1.1" id="Layer_69" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2000 171.3" style="enable-background:new 0 0 2000 171.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1067DD;}
+	.st1{fill:#2D9FFE;}
+	.st2{fill:#3ADBFD;}
+	.st3{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M0,52.7v62.7v1.8V135v17.1c89.7-8,235.2-28.7,385.7-35h172.3c167.4,6.2,375.9,25.8,571.6,24.5
+	c232.5-1.5,328-18.8,488.5-18.8s249.5,35.1,381.8,31.6v-37.3v-1.8V52.7H0z"/>
+<path class="st1" d="M0,0l0,85.1c55.5-7.7,364.2,37.7,496.1,36.9c131.9-0.8,267.6-42.7,421.4-28.5c153.8,14.2,408.3,62.5,579.6,61.2
+	s408.4-57.3,408.4-57.3V0H0z"/>
+<path class="st2" d="M0,53.5V4.3l2000,0v126.1c-241,23.7-714.1-73.5-902.6-70.5C909,63,722.9,90.5,560.5,90.5S91.7,63.7,0,53.5z"/>
+<path class="st0" d="M1837.8-556.2c0,0-248.8,50-428.6,51.1S962.2-547,800.8-559.7S496.9-535,358.4-534.2S-104-574-162.2-567.1
+	l0-103.1l2000,0V-556.2z"/>
+<path class="st1" d="M1837.8-550.7c-89.9,6.3-203.2,13.3-378.1,16.1c-355.9,5.8-894.7-63.8-1102.3-60.7s-370.6,58.6-519.6,38.7
+	l0-113.7l2000,0V-550.7z"/>
+<path class="st2" d="M-162.2-621v-49.2l2000,0v126.1c-241,23.7-714.1-73.5-902.6-70.5C746.8-611.6,560.7-584,398.3-584
+	S-70.5-610.8-162.2-621z"/>
+<path class="st3" d="M0,0v63.2C89.9,70.9,203.1,79.5,378.1,83C734,90.1,1272.8,4.8,1480.4,8.6C1688,12.4,1851,80.4,2000,56l0-56H0z"
+	/>
+</svg>
+		</div>
+		<div id="footer">
+			<div id="footerCont">
+				<div id="footLeft">
+					<div id="footLogo">
+				    	<img src="media/logo_name_white.png" width="9036" height="2779" alt=""/> 
+					</div>
+					<div id="footName">&copy; Nicholas Hayes 2021</div>
+				</div>
+				<div id="footRight">
+					<div id="qs">
+						<div id="qsTitle">
+							<p>Stay Connected</p>
+							<div></div>
+						</div>
+						<div id="qsC">
+							<a id="faceQs" class="qsL" href="https://www.facebook.com/teamaqueous" target="_blank">
+								<div></div>
+							</a>
+							<a id="instaQs" class="qsL" href="http://www.instagram.com/teamaqueous/" target="_blank">
+								<div></div>
+							</a>
+							<a id="discordQs" class="qsL" href="https://discord.gg/kq4hA3mmnF" target="_blank">
+								<div></div>
+							</a>
+							<a id="mailQs" class="qsL" href="mailto:contact@teamaqueous.com">
+								<div></div>
+							</a>
+						</div>
+					</div>
+					<div id="qm">
+						<div id="qmTitle">
+							<p>Quick Menu</p>
+							<div></div>
+						</div>
+						<div id="qmLinks">
+							<a class="qmLink" href="https://teamaqueous.com">
+								<p>Home</p>
+							</a>
+							<a class="qmLink" href="about-us">
+								<p>About Us</p>
+							</a>
+							<a class="qmLink" href="about-f1-in-schools">
+								<p>F1 in Schools &trade;</p>
+							</a>
+							<a class="qmLink" href="support-us">
+								<p>Support Us</p>
+							</a>
+							<a class="qmLink" href="contact-us">
+								<p>Contact</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
