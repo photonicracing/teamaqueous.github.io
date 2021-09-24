@@ -39,25 +39,14 @@ function myFunction() {
 }
 	
 </script>
-<script>
-
-const current = 0;
-for (var i = 0; i < document.links.length; i++) {
-    if (document.links[i].href === document.URL) {
-        current = i;
-    }
-}
-document.links[current].className = 'current';
-	
-</script>
 </head>
 
 <body>
 	<div id="header">
 	  <div id="headerCont">
-		<div id="headLogoCont">
+		<a href="https://teamaqueous.com" id="headLogoCont">
 			<img id="navLogo" src="media/logo_name.png" width="9036" height="2779" alt=""/>
-		</div>
+		</a>
 		<div id="navBar" class="navBar">
 				<a href="https://teamaqueous.com" class="navLink" target="_self">
 					<div class="navLinkText">Home</div><div class="navLinkIndicator">
@@ -65,7 +54,7 @@ document.links[current].className = 'current';
 					<div class="nli2"></div>
 					<div class="nli3"></div>
 				</div></a>
-				<a href="https://teamaqueous.com/about-us" class="navLink" target="_self">
+				<a href="about-us" class="navLink" target="_self">
 					<div class="navLinkText">About Us</div><div class="navLinkIndicator">
 					<div class="nli1"></div>
 					<div class="nli2"></div>

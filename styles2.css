@@ -158,18 +158,6 @@ body {
 	width: 15%;
 }
 
-.navLink.current .nli1 {
-	width: 60%;
-}
-
-.navLink.current .nli2 {
-	width: 25%;
-}
-
-.navLink.current .nli3 {
-	width: 15%;
-}
-
 .icon {
 	display: none;
 }
