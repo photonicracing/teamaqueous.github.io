@@ -75,6 +75,10 @@ body {
 	justify-content: space-between;
 }
 
+.hidden {
+	display: none;
+}
+
 #navLogo {
 	width: 200px;
 	height: 62px;
