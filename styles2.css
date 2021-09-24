@@ -1617,6 +1617,18 @@ textarea {
 		background-position: top;
 	}
 	
+	#hiSupport {
+		background: url("media/support-us.png");
+		background-size: cover;
+		background-attachment:none;
+		background-repeat: no-repeat;
+		background-position: top;
+	}
+	
+	.headerImg {
+		height: 50vh;
+	}
+	
 	.section1Text {
 		font-size: 5.25vw;
 	}
