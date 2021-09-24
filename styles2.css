@@ -1691,6 +1691,53 @@ textarea {
 		font-size: 4.5vw;
 		font-weight: 500;
 	}
+	
+	.supportInfoCont {
+		flex-direction: column;
+	}
+	
+	.supportInfo {
+		width: 100%;
+	}
+	
+	.supportInfo p {
+		text-align: center;
+	}
+	
+	.capMarg {
+		margin-top: 5vw;
+	}
+	
+	.forwardBox {
+		flex-direction: column;
+	}
+	
+	.backwardBox {
+		flex-direction: column;
+	}
+	
+	.partnerBox {
+		width: 100%;
+		height: inherit;
+	}
+	
+	.partnerInfo {
+		width: 100%;
+		height: inherit;
+	}
+	
+	.imgInfo {
+		width: 100%;
+		height: 50vw;
+	}
+	
+	.partnerDiv {
+		height: 0.5vw;
+	}
+	
+	.textInfo p {
+		text-align: center;
+	}
 }
 
 .reveal {
