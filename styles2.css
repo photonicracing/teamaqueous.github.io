@@ -46,6 +46,7 @@ html {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	overflow: overlay;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -398,10 +399,11 @@ body {
 
 .headerImg {
 	width: 100vw;
-	height: 100vh;
+	height: 65vh;
 }
 
 #hiAboutUs {
+	margin-top: calc(2vw + 62px);
 	background: url("media/about-us_header.png");
 	background-size: cover;
 	background-attachment:fixed;
@@ -429,6 +431,7 @@ body {
 }
 
 #hiSupport {
+	margin-top: calc(2vw + 62px);
 	background: url("media/support-us.png");
 	background-size: cover;
 	background-attachment:fixed;

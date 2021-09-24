@@ -43,6 +43,7 @@ html {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	overflow: overlay;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -255,6 +256,16 @@ body {
 }
 
 #scrollInfo {
+	width: 100vw;
+	height: 100vh;
+	z-index: 3;
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#scrollInfo a {
 	width: 100vw;
 	height: 100vh;
 	z-index: 3;
