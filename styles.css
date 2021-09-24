@@ -1227,6 +1227,32 @@ body {
 	margin-top: 0;
 }
 
+#footer {
+	flex-direction: column;
+}
+
+#footerDisc {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 25px;
+	font-size: 15px;
+	color: #95A4BE;
+	text-align: center;
+}
+
+#aoc {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 35px;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	background: url("media/artwork_adjusted.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 @media screen and (max-width: 1000px) {
 	#spacer {
 		height: 0vw;
