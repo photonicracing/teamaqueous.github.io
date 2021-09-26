@@ -1529,6 +1529,14 @@ body {
 	
 	#header {
 		margin-top: 0;
+		background: rgba(0,0,0,0);
+		backdrop-filter: none;
+	-webkit-backdrop-filter: none;
+	}
+	
+	#header.show {
+		background: #ffffff;
+}
 	}
 	
 	#arrow1 {
