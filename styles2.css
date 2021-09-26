@@ -1796,8 +1796,9 @@ textarea {
 		height: 0.5vw;
 	}
 	
-	.textInfo p {
+	.textInfo .smalText {
 		text-align: center;
+		margin-bottom: 10vw;
 	}
 	
 	.reveal {
