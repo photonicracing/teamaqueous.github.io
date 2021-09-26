@@ -212,6 +212,7 @@ body {
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	margin-top: -5vw;
 }
 
 #footLogo img {
@@ -483,7 +484,7 @@ body {
 }
 
 .lower {
-	margin-bottom: -60px;
+	/*margin-bottom: -60px;*/
 	margin-top: 0;
 }
 
