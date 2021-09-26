@@ -68,6 +68,10 @@ body {
 	-webkit-backdrop-filter: blur(15px) brightness(1);
 }
 
+#header.show {
+	margin-top: 0;
+}
+
 #headerCont {
 	width: 98vw;
 	margin: 1vw; 
@@ -229,6 +233,10 @@ body {
 	transition: 0.5s;
 }
 
+#headerDark.show {
+	opacity: 0;
+}
+
 #headerLight {
 	z-index: 1;
 	background: url("media/header_light.png");
@@ -253,6 +261,10 @@ body {
  	padding: 20px;
 	transform: rotate(45deg);
   	-webkit-transform: rotate(45deg);
+}
+
+#arrow1.show {
+	opacity: 0;
 }
 
 #scrollInfo {
@@ -1513,5 +1525,17 @@ body {
  		transition: all 1s ease;
 		transform: translateY(0px);
   		opacity: 1;
+	}
+	
+	#header {
+		margin-top: 0;
+	}
+	
+	#arrow1 {
+		opacity: 0;
+	}
+	
+	#headerDark {
+		opacity: 0;
 	}
 }

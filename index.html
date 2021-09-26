@@ -6,7 +6,7 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/jpg" href="media/favicon.png"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script>
+<!--<script>
 
 		window.onscroll = function() {scrollFunction1()};
 
@@ -24,8 +24,29 @@ function scrollFunction1() {
   }
 }
 	
-</script>
+</script>-->
 <script type="text/javascript">
+    window.addEventListener('scroll', show);
+
+    function show(){
+      var shows = document.querySelectorAll('.show1');
+
+      for(var i = 0; i < shows.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = shows[i].getBoundingClientRect().top;
+        var revealpoint = 5;
+
+        if(revealtop < windowheight - revealpoint){
+          shows[i].classList.add('show');
+        }
+        else{
+          reveals[i].classList.remove('show');
+        }
+      }
+    }
+	</script>
+	<script type="text/javascript">
     window.addEventListener('scroll', reveal);
 
     function reveal(){
@@ -70,7 +91,7 @@ function myFunction() {
 </head>
 
 <body>
-	<div id="header">
+	<div id="header" class="show1">
 	  <div id="headerCont">
 		<a href="https://teamaqueous.com" id="headLogoCont">
 			<img id="navLogo" src="media/logo_name.png" width="9036" height="2779" alt=""/>
@@ -113,9 +134,9 @@ function myFunction() {
 	  </div>
 	</div>
 	<div id="headerImgCont">
-		<div id="headerDark"></div>
+		<div id="headerDark" class="show1"></div>
 		<div id="headerLight"></div>
-		<div id="scrollInfo"><a href="#pageStart"><i class="arrow1" id="arrow1"></i></a></div>
+		<div id="scrollInfo"><a href="#pageStart"><i class="arrow1 show1" id="arrow1"></i></a></div>
 	</div>
 	<div id="spacer"></div>
 	<div id="contentCont">
