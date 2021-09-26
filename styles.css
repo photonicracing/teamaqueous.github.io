@@ -1280,14 +1280,14 @@ body {
 	
 	#headerImgCont {
 		width: 100vw;
-		height: 100vw;
+		height: 60vw;
 		margin-bottom: -6vh;
 	}
 
 	#headerImgCont div {
 		width: 100vw;
-		height: 100vw;
-		background-size: cover;
+		height: 60vw;
+		background-size: contain;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-position: top;
