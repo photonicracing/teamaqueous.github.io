@@ -1282,7 +1282,6 @@ body {
 		width: 100vw;
 		height: 60vw;
 		margin-bottom: -6vh;
-		margin-top: 10vw;
 		
 	}
 
@@ -1291,7 +1290,7 @@ body {
 		height: 60vw;
 		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: 50% 30%;
+		background-position: top;
 		position: fixed;
 	}
 	
