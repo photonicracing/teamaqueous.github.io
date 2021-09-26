@@ -1545,4 +1545,9 @@ body {
 	#headerDark {
 		opacity: 0;
 	}
+	
+	.navBar {
+		background: #ffffff;
+		border-radius: 5vw;
+	}
 }
