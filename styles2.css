@@ -1421,6 +1421,260 @@ textarea {
   opacity: 1;
 }
 
+.lowSec {
+	margin-top: calc(2vw + 62px);
+}
+
+.titleMid {
+	text-align: center;
+	margin-bottom: 3vw;
+}
+
+.wideSec {
+	width: 90%;
+}
+
+.wallpaperCont {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.colourCont {
+	margin: auto;
+	width: 33%;
+	box-sizing: border-box;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mob .wallpaper {
+	width: 25vw;
+	height: 54vw;
+	background: blue;
+	margin: auto;
+}
+
+.desk .wallpaper {
+	width: 25vw;
+	height: 14vw;
+	background: blue;
+	margin: auto;
+}
+
+.desk .blue1 {
+	background: url("media/wallpaper_thumbs/blue1desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .blue2 {
+	background: url("media/wallpaper_thumbs/blue2desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .blue3 {
+	background: url("media/wallpaper_thumbs/blue3desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .blue4 {
+	background: url("media/wallpaper_thumbs/blue4desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .blue5 {
+	background: url("media/wallpaper_thumbs/blue5desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .black1 {
+	background: url("media/wallpaper_thumbs/black1desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .black2 {
+	background: url("media/wallpaper_thumbs/black2desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .black3 {
+	background: url("media/wallpaper_thumbs/black3desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .black4 {
+	background: url("media/wallpaper_thumbs/black4desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .black5 {
+	background: url("media/wallpaper_thumbs/black5desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .sky1 {
+	background: url("media/wallpaper_thumbs/sky1desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .sky2 {
+	background: url("media/wallpaper_thumbs/sky2desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .sky3 {
+	background: url("media/wallpaper_thumbs/sky3desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .sky4 {
+	background: url("media/wallpaper_thumbs/sky4desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.desk .sky5 {
+	background: url("media/wallpaper_thumbs/sky5desk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .blue1 {
+	background: url("media/wallpaper_thumbs/blue1mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .blue2 {
+	background: url("media/wallpaper_thumbs/blue2mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .blue3 {
+	background: url("media/wallpaper_thumbs/blue3mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .blue4 {
+	background: url("media/wallpaper_thumbs/blue4mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .blue5 {
+	background: url("media/wallpaper_thumbs/blue5mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .black1 {
+	background: url("media/wallpaper_thumbs/black1mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .black2 {
+	background: url("media/wallpaper_thumbs/black2mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .black3 {
+	background: url("media/wallpaper_thumbs/black3mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .black4 {
+	background: url("media/wallpaper_thumbs/black4mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .black5 {
+	background: url("media/wallpaper_thumbs/black5mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .sky1 {
+	background: url("media/wallpaper_thumbs/sky1mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .sky2 {
+	background: url("media/wallpaper_thumbs/sky2mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .sky3 {
+	background: url("media/wallpaper_thumbs/sky3mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .sky4 {
+	background: url("media/wallpaper_thumbs/sky4mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mob .sky5 {
+	background: url("media/wallpaper_thumbs/sky5mob.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 @media screen and (max-width: 1000px) {
 	#header {
 		background: white;
@@ -1806,5 +2060,25 @@ textarea {
  		transition: all 1s ease;
 		transform: translateY(0px);
   		opacity: 1;
+	}
+	
+	.wallpaperCont {
+		flex-direction: column;
+	}
+
+	.colourCont {
+		margin: auto;
+		width: 90vw;
+		flex-direction: column;
+	}
+
+	.mob .wallpaper {
+		width: 90vw;
+		height: 195vw;
+	}
+
+	.desk .wallpaper {
+		width: 90vw;
+		height: 50vw;
 	}
 }
