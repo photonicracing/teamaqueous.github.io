@@ -946,20 +946,22 @@ body {
 
 #sec5 {
 	width: 100%;
-	height: 400px;
+	height: 700px;
 	background: white;
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	flex-direction: column;
 }
 
-#sec5Cont {
+.sec5Cont {
 	margin: auto;
 	display: flex;
 	flex-direction: row;
 	align-content: center;
 	justify-content: center;
 	flex-wrap: wrap;
+	width: 80%;
 }
 
 #sec5Title {
@@ -972,20 +974,21 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	justify-content: center;
-	margin-left: 50px;
+	justify-content: space-around;
 }
 
 .socialLink {
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	background: #1067DD;
-	margin: 10px;
-	border-radius: 50px;
+	margin: auto;
+	border-radius: 45px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	transition: 0.75s;
+	margin-right: 20px;
+	
 }
 
 .socialLink div {
@@ -1037,6 +1040,36 @@ body {
 
 .socialLink:hover {
 	background: #6BAAFF;
+}
+
+.sec5Thin {
+	margin-top: 0;
+	width: 60%;
+	flex-direction: row;
+}
+
+.wall {
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+#wallImg {
+	margin: auto;
+	width: 25vw;
+	height: 15vw;
+	background: url("media/wall.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#wallTitle {
+	font-size: 40px;
+	text-align: center;
 }
 
 #footer {
@@ -1450,7 +1483,7 @@ body {
 	}
 	
 	#sec5 {
-		height: 150vw;
+		height: 280vw;
 	}
 	
 	#sec5Cont {
@@ -1473,6 +1506,28 @@ body {
 		height: 30vw;
 		margin: 3vw;
 		border-radius: 15vw;
+	}
+	
+	.sec5Thin {
+		flex-direction: column;
+		width: 80vw;
+	}
+	
+	.wall {
+		width: 100%;
+	}
+	
+	#wallImg {
+		height: 40vw;
+		width: 80vw;
+	}
+	
+	.wallImg {
+		margin-top: 5vw;
+	}
+	
+	#wallTitle {
+		font-size: 10vw;
 	}
 	
 	#footerCont {
