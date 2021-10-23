@@ -1380,6 +1380,22 @@ textarea {
 	margin: auto;
 }
 
+#maxiFull {
+	background: url("media/logos/maxident.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#morgansFull {
+	background: url("media/logos/mf.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
 .biggn {
 	font-size: 55px;
 }
