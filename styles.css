@@ -919,6 +919,22 @@ body {
 	margin: auto;
 }
 
+#pb-9 {
+	background: url("media/maxident.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-10 {
+	background: url("media/morgans.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
 .partnerBox:hover {
 	background: rgba(255,255,255,0.35);
 }
