@@ -1640,6 +1640,7 @@ body {
 		margin-top: 0;
 		background: #ffffff;
 		backdrop-filter: none;
+		color: black;
 	-webkit-backdrop-filter: none;
 		position: sticky;
 	}
