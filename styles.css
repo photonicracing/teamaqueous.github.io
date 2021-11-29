@@ -35,6 +35,30 @@ Dark Grey: #223447
 	height: 100vh;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+#sec1Right.reveal{
+  position: relative;
+  transform: translateX(250px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+#sec1Right.reveal.active{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
 html {
 	top: 0;
 	left: 0;
@@ -312,6 +336,7 @@ body {
 	justify-content: center;
 	margin: 0;
 	z-index: 4;
+	overflow: hidden;
 }
 
 #sec1Cont {
@@ -351,9 +376,10 @@ body {
 }
 
 #sec1Right img {
-	width: 310px;
-	height: 330px;
+	width: 800px;
+	height: 400px;
 	margin: auto;
+	margin-right: -150px;
 }
 
 .transitionCont svg {
@@ -527,18 +553,6 @@ body {
 
 .button1:hover p {
 	color: white;
-}
-
-.reveal{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: all 1s ease;
-}
-
-.reveal.active{
-  transform: translateY(0px);
-  opacity: 1;
 }
 
 #sec3 {
@@ -1372,6 +1386,7 @@ body {
 	
 	#sec1SubTitle {
 		font-size: 5vw;
+		margin-bottom: 0;
 	}
 	
 	#sec1Left {
@@ -1380,11 +1395,11 @@ body {
 	
 	#sec1Right {
 		width: 70vw;
-		margin-top: 5vw;
+		margin-top: 0vw;
 	}
 	
 	#sec1Right img {
-		width: 60vw;
+		width: 120vw;
 		height: 60vw;
 	}
 	
