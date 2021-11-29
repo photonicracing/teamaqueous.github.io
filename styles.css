@@ -83,17 +83,36 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
+	color: white;
 	position: fixed;
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0);
 	z-index: 15;
-	margin-top: -50vh;
 	transition: 1.2s;
-	backdrop-filter: blur(15px) brightness(1);
-	-webkit-backdrop-filter: blur(15px) brightness(1);
+	backdrop-filter: blur(0px);
+	-webkit-backdrop-filter: blur(0px) ;
+}
+
+#header .navLink {
+	color: white;
+}
+
+#header.show .navLink {
+	color: black;
+}
+
+#header #navLogo {
+	filter: contrast(0) brightness(10);
+}
+
+#header.show #navLogo {
+	filter: contrast(1) brightness(1);
 }
 
 #header.show {
-	margin-top: 0;
+	background: rgba(255,255,255,0.5);
+	color: black;
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
 }
 
 #headerCont {
@@ -136,7 +155,6 @@ body {
 	display: inline-block;
 	font-size: 20px;
 	text-decoration: none;
-	color: #000000;
 	transition: 0.3s;
 }
 
@@ -252,9 +270,12 @@ body {
 
 #headerDark {
 	z-index: 2;
-	background: url("media/header_dark.png");
+	background: rgba(0,100,255,0.40);
 	opacity: 1;
 	transition: 0.5s;
+	filter: contrast(1);
+	backdrop-filter: grayscale(1) contrast(1.2) brightness(1.1);
+	-webkit-backdrop-filter: grayscale(1) contrast(1.2) brightness(1.1);
 }
 
 #headerDark.show {
@@ -267,7 +288,7 @@ body {
 }
 
 #spacer {
-	height: 75vh;
+	height: 25vh;
 	width: 100vw;
 }
 
@@ -1345,6 +1366,7 @@ body {
 		width: 100vw;
 		height: 60vw;
 		margin-bottom: -6vh;
+		transform: translateY(0vw);
 		
 	}
 
@@ -1353,8 +1375,9 @@ body {
 		height: 60vw;
 		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: top;
-		position: fixed;
+		background-position: center;
+		background-attachment: scroll;
+		position: inherit;
 	}
 	
 	.arrow1 {
@@ -1615,9 +1638,10 @@ body {
 	
 	#header {
 		margin-top: 0;
-		background: rgba(0,0,0,0);
+		background: #ffffff;
 		backdrop-filter: none;
 	-webkit-backdrop-filter: none;
+		position: sticky;
 	}
 	
 	#header.show {
@@ -1634,6 +1658,14 @@ body {
 	
 	.navBar {
 		background: #ffffff;
-		border-radius: 5vw;
+		border-radius: 0;
+	}
+	
+	#header #navLogo {
+		filter: contrast(1) brightness(1);
+	}
+	
+	#header {
+		background: white;
 	}
 }
