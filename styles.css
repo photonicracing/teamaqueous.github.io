@@ -348,6 +348,74 @@ body {
 	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 100%);
 }
 
+.revealTemp {
+	height: 500px;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: 0;
+	z-index: 4;
+	overflow: hidden;
+}
+
+.revealTempCont {
+	margin: auto;
+	width: 80vw;
+	height: 450px;
+	display: flex;
+	align-content: center;
+	flex-direction: row;
+	background: rgba(0,0,0,0.7);
+	z-index: 5;
+}
+
+.revealLeft {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 60%;
+	background: url("media/hiddencar.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+}
+
+.revealRight {
+	color: white;
+	width: 40%;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+.revealRightCont {
+	margin: auto;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.revealTitle {
+	font-size: 60px;
+	font-weight: 700;
+	margin: 30px;
+	margin-bottom: 30px;
+}
+
+.revealSubTitle {
+	font-size: 25px;
+	margin: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 #sec1 {
 	height: 500px;
 	width: 100%;
@@ -507,6 +575,10 @@ body {
 	text-decoration: none;
 	/*overflow: hidden;*/
 	/*border-radius: 37.5px;*/
+}
+
+.blackButton {
+	margin-top: 30px;
 }
 
 .button1PCont {
@@ -970,6 +1042,38 @@ body {
 	margin: auto;
 }
 
+#pb-16 {
+	background: url("media/bueno.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-17 {
+	background: url("media/lek.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-18 {
+	background: url("media/goodcitizens.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#pb-19 {
+	background: url("media/klausen.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
 .partnerBox:hover {
 	background: rgba(255,255,255,0.35);
 }
@@ -1391,6 +1495,44 @@ body {
 		border: solid black;
 		border-width: 0 7px 7px 0;
 		display: none;
+	}
+	
+	#scrollInfo a {
+		height: 0;
+	}
+	
+	#scrollInfo {
+		height: 0;
+	}
+	
+	.revealTemp {
+		margin-top: 2vw;
+		height: 150vw;
+		background: black;
+		margin-bottom: -5vw;
+	}
+	
+	.revealTempCont {
+		flex-direction: column;
+		margin-top: 5vw;
+		height: 130vw;
+	}
+	
+	.revealLeft {
+		width: 100%;
+		height: 70vw;
+	}
+	
+	.revealRight {
+		width: 100%;
+	}
+	
+	.revealTitle {
+		font-size: 10vw;
+	}
+	
+	.revealSubTitle {
+		font-size: 5vw;
 	}
 	
 	#sec1 {
