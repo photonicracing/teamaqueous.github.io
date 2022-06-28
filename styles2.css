@@ -1396,6 +1396,38 @@ textarea {
 	margin: auto;
 }
 
+#goodFull {
+	background: url("media/logos/goodcitizens.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#buenoFull {
+	background: url("media/logos/bueno.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#lekFull {
+	background: url("media/logos/lek.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+#klausenFull {
+	background: url("media/logos/klausen.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
 .biggn {
 	font-size: 55px;
 }
