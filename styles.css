@@ -349,7 +349,7 @@ body {
 }
 
 .revealTemp {
-	height: 500px;
+	height: 700px;
 	width: 100%;
 	display: flex;
 	align-content: center;
@@ -362,11 +362,11 @@ body {
 .revealTempCont {
 	margin: auto;
 	width: 80vw;
-	height: 450px;
+	height: 550px;
 	display: flex;
 	align-content: center;
 	flex-direction: row;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,35,124,0.7);
 	z-index: 5;
 }
 
@@ -377,7 +377,7 @@ body {
 	flex-direction: column;
 	height: 100%;
 	width: 60%;
-	background: url("media/hiddencar.png");
+	background: url("media/bluecar.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -403,14 +403,14 @@ body {
 }
 
 .revealTitle {
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: 700;
 	margin: 30px;
 	margin-bottom: 30px;
 }
 
 .revealSubTitle {
-	font-size: 25px;
+	font-size: 35px;
 	margin: 40px;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -579,6 +579,10 @@ body {
 
 .blackButton {
 	margin-top: 30px;
+}
+
+.wideButton {
+	width: 250px;
 }
 
 .button1PCont {
@@ -1508,7 +1512,7 @@ body {
 	.revealTemp {
 		margin-top: 2vw;
 		height: 150vw;
-		background: black;
+		background: rgb(0,35,124);
 		margin-bottom: -5vw;
 	}
 	
@@ -1743,6 +1747,10 @@ body {
 	.button1 {
 		width: 50vw;
 		height: 19vw;
+	}
+	
+	.wideButton {
+		width: 65vw;
 	}
 	
 	.button1PCont {
