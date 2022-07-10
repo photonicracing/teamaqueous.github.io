@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/* Page Theme Colours
+Light Blue: #3ADBFD
+Blue: #2D9FFE
+Dark Blue: #1067DD
+Dark Grey: #223447
+*/
+
+::-webkit-scrollbar {
+ 	width: 12px;
+	background: none;
+}
+
+::-webkit-scrollbar-track {
+  	background: none; 
+}
+
+::-webkit-scrollbar-thumb {
+  	background: rgba(0,0,0,0);
+	border-radius: 6px;
+	transition: 0.3s;
+	border: solid #ffffff 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  	background: #2D9FFE; 
+}
+
+html {
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	overflow: overlay;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background: #3ADBFD;
+}
+
+.container {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	width: 90vw;
+	height: 90vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	background: white;
+}
+
+.box {
+	margin: auto;
+}
+
+.links {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.link {
+	margin: 5vw auto 0 auto;
+	font-size: 2vw;
+	text-decoration: none;
+	background: #2D9FFE;
+	color: #ffffff;
+	width: 30vw;
+	padding: 5vw;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	transition: 0.2s;
+}
+
+.link:hover {
+	background: #1067DD;
+}
+
+.title {
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.title p {
+	margin: auto;
+	font-size: 2vw;
+	color: black;
+	margin-top: 5vh;
+	margin-bottom: -10vh;
+}
+
+@media screen and (max-width: 1000px) {
+
+.container {
+	margin: auto;
+	width: 80vw;
+	padding: 5vw;
+	margin-top: 5vw;
+	background: #ffffff;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 5vw;
+}
+
+.box {
+	margin: auto;
+}
+
+.header {
+	height: 20vw;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 5vw;
+}
+
+#navLogo {
+	width: 63.75vw;
+	height: 19.7625vw;
+	margin: auto;
+}
+
+.links {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.link {
+	margin: 5vw auto 0 auto;
+	font-size: 5vw;
+	text-decoration: none;
+	background: #2D9FFE;
+	color: #ffffff;
+	width: 60vw;
+	padding: 5vw;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	transition: 0.2s;
+}
+
+.link p {
+	margin: auto;
+}
+
+.link:hover {
+	background: #1067DD;
+}
+	
+.title p {
+	margin: auto;
+	font-size: 4.5vw;
+	color: black;
+	margin-top: 5vh;
+	margin-bottom: 0;
+}
+	
+}
