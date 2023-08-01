@@ -45,7 +45,6 @@ html {
 	margin: 0;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	overflow: overlay;
 	scroll-behavior: smooth;
 }
 
